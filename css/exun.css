@@ -1,6 +1,7 @@
 /*
 * Exun.css v1.0.0
 * Copyright 2018, Kabir Goel
+* Based on Skeleton by Dave Gamache
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 18/08/2018
@@ -178,7 +179,7 @@
   box-sizing: border-box;
 }
 /* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
+html is set to 62.5% so that all the REM measurements throughout the framework
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;
