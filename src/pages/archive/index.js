@@ -19,14 +19,18 @@ const Archive = () => (
     </Header>
     <main>
       <Container>
-        <Section>
+        <Section
+          style={{
+            overflowX: 'auto',
+          }}
+        >
           <table>
             <tbody>
               <tr>
-                <th width="15%">Year</th>
-                <th width="30%">Symposium</th>
-                <th width="40%">Organising School</th>
-                <th width="15%">Position</th>
+                <th>Year</th>
+                <th>Symposium</th>
+                <th>Organising School</th>
+                <th>Position</th>
               </tr>
 
               <tr>
