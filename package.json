@@ -1,13 +1,32 @@
 {
   "name": "exun-website",
+  "description": "Exun website 2018",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Kabir Goel",
+  "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.4.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages --dist public"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.9.7"
+    "gh-pages": "^1.2.0",
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
