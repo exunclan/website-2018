@@ -152,7 +152,7 @@ export default [
       <p>
         The prelims will be held online in multiple batches, from October 2-5. A
         Discord link will be released and the game to be played will be revealed
-        a week before. 30 teams will qualify for the onsite round on Exun.
+        a week before. 30 players will qualify for the onsite round on Exun.
       </p>
     ),
     eligibility: 'Open',
