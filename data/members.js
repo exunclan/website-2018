@@ -43,12 +43,22 @@ export default [
         image: '',
       },
       {
+        name: 'Arunim Gupta',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Ritin Pachnanda',
         role: 'Member',
         image: '',
       },
       {
         name: 'Isha Arora',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Bhavya Khandelwal',
         role: 'Member',
         image: '',
       },
@@ -78,6 +88,16 @@ export default [
         image: '',
       },
       {
+        name: 'Aditya Batra',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Aditya Joshi',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Sagnik Anupam',
         role: 'Member',
         image: '',
@@ -102,6 +122,11 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Naman Dhingra',
+        role: 'Member',
+        image: '',
+      },
     ],
   },
   {
@@ -114,6 +139,11 @@ export default [
       },
       {
         name: 'Natasha Arya',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Shashwat Chandra',
         role: 'Member',
         image: '',
       },
