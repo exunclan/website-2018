@@ -42,7 +42,6 @@ const Faculty = () => (
                       backgroundRepeat: 'no-repeat',
                       borderRadius: '50%',
                       backgroundPosition: '50% 50%',
-                      border: '2px solid #193158',
                     }}
                   />
                   <h5>{member.name}</h5>
