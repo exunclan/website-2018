@@ -14,7 +14,6 @@ import InviteForm from '../components/InviteForm';
 import events from '../../data/events';
 
 import cover from './cover.svg';
-import star from './star.png';
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -118,30 +117,12 @@ const Index = () => (
         <Container>
           <Row>
             <Column size={8}>
-              <div style={{ position: 'relative' }}>
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: -40,
-                    top: -40,
-                    zIndex: -1,
-                  }}
-                >
-                  <img
-                    style={{
-                      height: 150,
-                      width: 150,
-                    }}
-                    src={star}
-                  />
-                </div>
-                <h3>National for the first time ever.</h3>
-                <p>
-                  Exun has been organizing its flagship event for two decades.
-                  With Exun 2018, the event becomes the first national
-                  technology symposium for and by the students.
-                </p>
-              </div>
+              <h3>National for the first time ever.</h3>
+              <p>
+                Exun has been organizing its flagship event for two decades.
+                With Exun 2018, the event becomes the first national technology
+                symposium for and by the students.
+              </p>
             </Column>
           </Row>
         </Container>
