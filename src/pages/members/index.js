@@ -7,7 +7,7 @@ import Splash from '../../components/Splash';
 import Section from '../../components/Section';
 import Card from '../../components/Card';
 
-import classes from './list';
+import classes from '../../../data/members';
 
 const Members = () => (
   <div>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Navbar from '../components/Navbar';
-import Container from '../components/Container';
-import Header from '../components/Header';
-import Splash from '../components/Splash';
-import Section from '../components/Section';
-import { Row, Column } from '../components/Grid';
+import Navbar from '../../components/Navbar';
+import Container from '../../components/Container';
+import Header from '../../components/Header';
+import Splash from '../../components/Splash';
+import Section from '../../components/Section';
+import { Row, Column } from '../../components/Grid';
 
 const About = () => (
   <div>

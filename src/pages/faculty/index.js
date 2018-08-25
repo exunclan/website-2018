@@ -7,7 +7,7 @@ import Splash from '../../components/Splash';
 import Section from '../../components/Section';
 import Card from '../../components/Card';
 
-import departments from './list';
+import departments from '../../../data/faculty';
 
 const Faculty = () => (
   <div>

@@ -9,9 +9,9 @@ import Section from '../components/Section';
 import Card from '../components/Card';
 import Button from '../components/Button';
 import { Row, Column } from '../components/Grid';
-import InviteForm from './InviteForm';
+import InviteForm from '../components/InviteForm';
 
-import events from './events';
+import events from '../../data/events';
 
 import cover from './cover.svg';
 import star from './star.png';

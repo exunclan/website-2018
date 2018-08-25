@@ -7,7 +7,7 @@ import Splash from '../../components/Splash';
 import Section from '../../components/Section';
 import Card from '../../components/Card';
 
-import batches from './list';
+import batches from '../../../data/alumni';
 
 const Alumni = () => (
   <div>
