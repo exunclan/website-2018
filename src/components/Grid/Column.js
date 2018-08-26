@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const sizes = [
   '4.66666666667%',
@@ -14,7 +14,7 @@ const sizes = [
   '82.6666666667%',
   '91.3333333333%',
   '100%',
-];
+]
 
 const offsets = [
   '8.66666666667%',
@@ -28,17 +28,17 @@ const offsets = [
   '78%',
   '86.6666666667%',
   '95.3333333333%',
-];
+]
 
 export default ({ size, offset, children, style }) => {
-  const width = sizes[size - 1] || '100%';
-  let marginLeft;
+  const width = sizes[size - 1] || '100%'
+  let marginLeft
   if (offset) {
-    marginLeft = offsets[offset - 1] || '4%';
+    marginLeft = offsets[offset - 1] || '4%'
   } else if (width === '100%') {
-    marginLeft = 0;
+    marginLeft = 0
   } else {
-    marginLeft = '4%';
+    marginLeft = '4%'
   }
 
   const Column = styled.div`
@@ -54,7 +54,7 @@ export default ({ size, offset, children, style }) => {
       width: ${width};
       marginleft: ${marginLeft};
     }
-  `;
+  `
 
-  return <Column style={style}>{children}</Column>;
-};
+  return <Column style={style}>{children}</Column>
+}

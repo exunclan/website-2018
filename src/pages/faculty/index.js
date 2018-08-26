@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-import Layout from '../../components/Layout';
-import Navbar from '../../components/Navbar';
-import Container from '../../components/Container';
-import Header from '../../components/Header';
-import Splash from '../../components/Splash';
-import Section from '../../components/Section';
-import Card from '../../components/Card';
+import Layout from '../../components/Layout'
+import Navbar from '../../components/Navbar'
+import Container from '../../components/Container'
+import Header from '../../components/Header'
+import Splash from '../../components/Splash'
+import Section from '../../components/Section'
+import Card from '../../components/Card'
 
-import departments from '../../../data/faculty';
+import departments from '../../../data/faculty'
 
 const Faculty = () => (
   <Layout>
@@ -55,6 +55,6 @@ const Faculty = () => (
       </Container>
     </main>
   </Layout>
-);
+)
 
-export default Faculty;
+export default Faculty

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const DefaultButton = styled.button`
   display: inline-block;
@@ -23,7 +23,7 @@ const DefaultButton = styled.button`
   transition-property: color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
-`;
+`
 
 const PrimaryButton = styled(DefaultButton)`
   background-color: #2977f5;
@@ -37,11 +37,11 @@ const PrimaryButton = styled(DefaultButton)`
     box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
   }
-`;
+`
 
 const Button = ({ primary = false, ...props }) => {
-  const Component = primary ? PrimaryButton : DefaultButton;
-  return <Component {...props} />;
-};
+  const Component = primary ? PrimaryButton : DefaultButton
+  return <Component {...props} />
+}
 
-export default Button;
+export default Button

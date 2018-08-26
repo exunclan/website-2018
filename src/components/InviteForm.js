@@ -1,51 +1,51 @@
-import React from 'react';
-import Button from '../components/Button';
+import React from 'react'
+import Button from '../components/Button'
 
 class InviteForm extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       complete: false,
       name: '',
       email: '',
       completeText: '',
       completeColor: '',
-    };
-    this.request = this.request.bind(this);
-    this.complete = this.complete.bind(this);
-    this.renderForm = this.renderForm.bind(this);
-    this.renderComplete = this.renderComplete.bind(this);
+    }
+    this.request = this.request.bind(this)
+    this.complete = this.complete.bind(this)
+    this.renderForm = this.renderForm.bind(this)
+    this.renderComplete = this.renderComplete.bind(this)
   }
 
   complete(success) {
-    let completeColor = '#dd637e';
-    let completeText = 'Error Making Request';
+    let completeColor = '#dd637e'
+    let completeText = 'Error Making Request'
     if (success) {
-      completeColor = '#42c8c5';
-      completeText = 'Request Received';
+      completeColor = '#42c8c5'
+      completeText = 'Request Received'
     }
-    this.setState({ complete: true, completeColor, completeText });
+    this.setState({ complete: true, completeColor, completeText })
   }
 
   request(e) {
-    e.preventDefault();
-    const email = this.state.email;
-    const name = this.state.name;
-    const formData = new FormData();
-    formData.append('email', email);
-    formData.append('name', name);
+    e.preventDefault()
+    const email = this.state.email
+    const name = this.state.name
+    const formData = new FormData()
+    formData.append('email', email)
+    formData.append('name', name)
     fetch('/invites/backend/add.php', {
       method: 'POST',
       body: formData,
       mode: 'cors',
     })
       .then(res => {
-        if (res.status === 200) this.complete(true);
-        else this.complete(false);
+        if (res.status === 200) this.complete(true)
+        else this.complete(false)
       })
       .catch(err => {
-        console.log(err);
-      });
+        console.log(err)
+      })
   }
 
   renderComplete() {
@@ -61,13 +61,13 @@ class InviteForm extends React.Component {
       >
         {this.state.completeText}
       </Button>
-    );
+    )
   }
 
   handleChange(field, e) {
-    const newState = {};
-    newState[field] = e.target.value;
-    this.setState(newState);
+    const newState = {}
+    newState[field] = e.target.value
+    this.setState(newState)
   }
 
   renderForm() {
@@ -116,16 +116,16 @@ class InviteForm extends React.Component {
           Request Invite
         </Button>
       </form>
-    );
+    )
   }
 
   render() {
     if (this.state.complete) {
-      return this.renderComplete();
+      return this.renderComplete()
     } else {
-      return this.renderForm();
+      return this.renderForm()
     }
   }
 }
 
-export default InviteForm;
+export default InviteForm

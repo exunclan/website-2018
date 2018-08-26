@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export default styled.div`
   &:after {
@@ -6,4 +6,4 @@ export default styled.div`
     display: table;
     clear: both;
   }
-`;
+`

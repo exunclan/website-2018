@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Card = styled.div`
   border: 1px solid #dfe1e5;
@@ -18,6 +18,6 @@ const Card = styled.div`
     flex-basis: 100%;
     margin-right: 0;
   }
-`;
+`
 
-export default Card;
+export default Card

@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-import Layout from '../../components/Layout';
-import Navbar from '../../components/Navbar';
-import Container from '../../components/Container';
-import Header from '../../components/Header';
-import Splash from '../../components/Splash';
-import Section from '../../components/Section';
-import Card from '../../components/Card';
+import Layout from '../../components/Layout'
+import Navbar from '../../components/Navbar'
+import Container from '../../components/Container'
+import Header from '../../components/Header'
+import Splash from '../../components/Splash'
+import Section from '../../components/Section'
+import Card from '../../components/Card'
 
-import batches from '../../../data/alumni';
+import batches from '../../../data/alumni'
 
 const Alumni = () => (
   <Layout>
@@ -43,6 +43,6 @@ const Alumni = () => (
       </Container>
     </main>
   </Layout>
-);
+)
 
-export default Alumni;
+export default Alumni

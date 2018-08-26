@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Splash = styled.div`
   display: flex;
@@ -7,6 +7,6 @@ const Splash = styled.div`
   text-align: center;
   padding-bottom: 10rem;
   padding-top: 10rem;
-`;
+`
 
-export default Splash;
+export default Splash

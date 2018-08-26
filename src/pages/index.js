@@ -1,29 +1,29 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import Layout from '../components/Layout';
-import Navbar from '../components/Navbar';
-import Container from '../components/Container';
-import Header from '../components/Header';
-import Splash from '../components/Splash';
-import Section from '../components/Section';
-import Card from '../components/Card';
-import Button from '../components/Button';
-import { Row, Column } from '../components/Grid';
-import InviteForm from '../components/InviteForm';
+import Layout from '../components/Layout'
+import Navbar from '../components/Navbar'
+import Container from '../components/Container'
+import Header from '../components/Header'
+import Splash from '../components/Splash'
+import Section from '../components/Section'
+import Card from '../components/Card'
+import Button from '../components/Button'
+import { Row, Column } from '../components/Grid'
+import InviteForm from '../components/InviteForm'
 
-import events from '../../data/events';
+import events from '../../data/events'
 
-import cover from './cover.svg';
+import cover from './cover.svg'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-`;
+`
 
 const Cover = styled.img`
   max-height: 320px;
   margin-bottom: 2rem;
-`;
+`
 
 const Box = styled.span`
   padding: 0.2rem 0.5rem;
@@ -34,19 +34,19 @@ const Box = styled.span`
   background: transparent;
   border: 1px solid currentColor;
   border-radius: 4px;
-`;
+`
 
 class Events extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       active: false,
-    };
-    this.toggle = this.toggle.bind(this);
+    }
+    this.toggle = this.toggle.bind(this)
   }
 
   toggle() {
-    this.setState(prevState => ({ active: !prevState.active }));
+    this.setState(prevState => ({ active: !prevState.active }))
   }
 
   render() {
@@ -58,7 +58,7 @@ class Events extends React.Component {
       &::-webkit-scrollbar {
         background: transparent;
       }
-    `;
+    `
 
     return (
       <div>
@@ -86,7 +86,7 @@ class Events extends React.Component {
           ))}
         </EventScroller>
       </div>
-    );
+    )
   }
 }
 
@@ -135,6 +135,6 @@ const Index = () => (
       </Section>
     </main>
   </Layout>
-);
+)
 
-export default Index;
+export default Index

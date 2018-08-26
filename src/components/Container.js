@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Container = styled.div`
   position: relative;
@@ -16,6 +16,6 @@ const Container = styled.div`
   @media (min-width: 550px) {
     width: 80%;
   }
-`;
+`
 
-export default Container;
+export default Container

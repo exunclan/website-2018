@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import styled from 'styled-components';
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 
-import Container from '../Container';
+import Container from '../Container'
 
-import logo from './logo.png';
+import logo from './logo.png'
 
 const links = [
   {
@@ -36,13 +36,13 @@ const links = [
     href: '//lnexun.com',
     external: true,
   },
-];
+]
 
 const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 const Cross = styled.div`
   display: none;
@@ -53,7 +53,7 @@ const Cross = styled.div`
     margin-top: -10rem;
     margin-bottom: 10rem;
   }
-`;
+`
 
 const Hamburger = styled.div`
   display: none;
@@ -62,7 +62,7 @@ const Hamburger = styled.div`
     flex: 1;
     text-align: right;
   }
-`;
+`
 
 const Nav = styled.div`
   flex: 1;
@@ -89,14 +89,14 @@ const Nav = styled.div`
     `
         : null};
   }
-`;
+`
 
 const Links = styled.ul`
   list-style-type: none;
   margin: 0;
   cursor: default;
   text-align: center;
-`;
+`
 
 const LinksItem = styled.li`
   padding: 0;
@@ -117,20 +117,20 @@ const LinksItem = styled.li`
     display: block;
     margin-bottom: 1em;
   }
-`;
+`
 
 class Navbar extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       active: false,
-    };
-    this.toggle = this.toggle.bind(this);
+    }
+    this.toggle = this.toggle.bind(this)
   }
   toggle() {
     this.setState(prevState => ({
       active: !prevState.active,
-    }));
+    }))
   }
   render() {
     return (
@@ -154,8 +154,8 @@ class Navbar extends React.Component {
           </Nav>
         </Wrapper>
       </Container>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar

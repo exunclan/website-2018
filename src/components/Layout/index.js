@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 
-import Footer from '../Footer';
+import Footer from '../Footer'
 
-import favicon from './favicon.png';
-import './normalize.css';
-import './index.css';
+import favicon from './favicon.png'
+import './normalize.css'
+import './index.css'
 
 const Layout = ({ children }) => (
   <div>
@@ -30,10 +30,10 @@ const Layout = ({ children }) => (
     <div>{children}</div>
     <Footer />
   </div>
-);
+)
 
 Layout.propTypes = {
   children: PropTypes.func,
-};
+}
 
-export default Layout;
+export default Layout

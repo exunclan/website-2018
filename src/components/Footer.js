@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import Container from './Container';
+import Container from './Container'
 
 const Wrapper = styled.div`
   padding-top: 3rem;
   padding-bottom: 3rem;
   border-top: 1px solid #eee;
   background: rgb(245, 248, 255);
-`;
+`
 
 const Footer = () => (
   <Wrapper>
@@ -26,6 +26,6 @@ const Footer = () => (
       </a>
     </Container>
   </Wrapper>
-);
+)
 
-export default Footer;
+export default Footer
