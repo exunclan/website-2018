@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Container from '../../components/Container';
 import Header from '../../components/Header';
@@ -10,7 +11,7 @@ import Card from '../../components/Card';
 import classes from '../../../data/members';
 
 const Members = () => (
-  <div>
+  <Layout>
     <Header>
       <Navbar />
       <Container>
@@ -41,7 +42,7 @@ const Members = () => (
         ))}
       </Container>
     </main>
-  </div>
+  </Layout>
 );
 
 export default Members;

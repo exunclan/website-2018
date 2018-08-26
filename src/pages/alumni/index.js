@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Container from '../../components/Container';
 import Header from '../../components/Header';
@@ -10,7 +11,7 @@ import Card from '../../components/Card';
 import batches from '../../../data/alumni';
 
 const Alumni = () => (
-  <div>
+  <Layout>
     <Header>
       <Navbar />
       <Container>
@@ -41,7 +42,7 @@ const Alumni = () => (
         ))}
       </Container>
     </main>
-  </div>
+  </Layout>
 );
 
 export default Alumni;

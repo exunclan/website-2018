@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Container from '../../components/Container';
 import Header from '../../components/Header';
@@ -10,7 +11,7 @@ import Card from '../../components/Card';
 import departments from '../../../data/faculty';
 
 const Faculty = () => (
-  <div>
+  <Layout>
     <Header>
       <Navbar />
       <Container>
@@ -53,7 +54,7 @@ const Faculty = () => (
         ))}
       </Container>
     </main>
-  </div>
+  </Layout>
 );
 
 export default Faculty;

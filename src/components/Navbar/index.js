@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import Container from '../Container';
@@ -136,7 +136,7 @@ class Navbar extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <img height="60" src={logo} />
+          <img height="60" src={logo} alt="" />
           <Hamburger onClick={this.toggle}>☰</Hamburger>
           <Nav active={this.state.active}>
             <Cross onClick={this.toggle}>✕</Cross>

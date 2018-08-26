@@ -35,7 +35,7 @@ export default ({ size, offset, children, style }) => {
   let marginLeft;
   if (offset) {
     marginLeft = offsets[offset - 1] || '4%';
-  } else if (width == '100%') {
+  } else if (width === '100%') {
     marginLeft = 0;
   } else {
     marginLeft = '4%';

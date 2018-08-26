@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Footer from '../components/Footer';
+import Footer from '../Footer';
 
 import favicon from './favicon.png';
 import './normalize.css';
 import './index.css';
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   <div>
     <Helmet
       title="Exun Clan"
@@ -27,7 +27,7 @@ const Layout = ({ children, data }) => (
         },
       ]}
     />
-    <div>{children()}</div>
+    <div>{children}</div>
     <Footer />
   </div>
 );

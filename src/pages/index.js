@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Container from '../components/Container';
 import Header from '../components/Header';
@@ -90,7 +91,7 @@ class Events extends React.Component {
 }
 
 const Index = () => (
-  <div>
+  <Layout>
     <Slant>
       <Header>
         <Navbar />
@@ -133,7 +134,7 @@ const Index = () => (
         </Container>
       </Section>
     </main>
-  </div>
+  </Layout>
 );
 
 export default Index;

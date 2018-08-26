@@ -1,14 +1,14 @@
 import React from 'react';
 
+import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Container from '../../components/Container';
 import Header from '../../components/Header';
 import Splash from '../../components/Splash';
 import Section from '../../components/Section';
-import { Row, Column } from '../../components/Grid';
 
 const About = () => (
-  <div>
+  <Layout>
     <Header>
       <Navbar />
       <Container>
@@ -149,7 +149,7 @@ const About = () => (
         </Section>
       </Container>
     </main>
-  </div>
+  </Layout>
 );
 
 export default About;
