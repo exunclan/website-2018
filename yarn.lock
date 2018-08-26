@@ -3892,11 +3892,11 @@ gatsby-plugin-react-helmet@next:
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
-gatsby-plugin-styled-components@^2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-2.0.11.tgz#c3d3438c7970bbcc116e821fb966687098bdaf57"
+gatsby-plugin-styled-components@next:
+  version "3.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.0-rc.0.tgz#d7267edfd73c24d2f678f45cce12517a431191ef"
   dependencies:
-    babel-runtime "^6.26.0"
+    "@babel/runtime" "7.0.0-beta.52"
 
 gatsby-react-router-scroll@^2.0.0-rc.0:
   version "2.0.0-rc.0"
