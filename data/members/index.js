@@ -153,6 +153,16 @@ export default [
     year: '9th',
     members: [
       {
+        name: 'Angad Singh',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Ashvin Verma',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Somesh Kar',
         role: 'Member',
         image: '',
@@ -178,20 +188,30 @@ export default [
         image: '',
       },
       {
-        name: 'Angad Singh',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Ashvin Verma',
-        role: 'Member',
-        image: '',
-      },
-      {
         name: 'Saathvik Sharma',
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Pulkit Garg',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Sarthak Mangla',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Shashwat Mundra',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Aryaman Chandra',
+        role: 'Member',
+        image: ''
+      }
     ],
   },
   {
