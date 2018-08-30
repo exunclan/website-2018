@@ -34,7 +34,7 @@ export default [
       },
       {
         name: 'Shalini Harisukh',
-        role: 'Principal',
+        role: 'Faculty',
         image: require('./images/shalinimaam.jpg'),
       },
       {
@@ -119,4 +119,4 @@ export default [
       },
     ],
   },
-];
+]
