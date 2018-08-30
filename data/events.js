@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 export default [
   {
@@ -180,6 +180,16 @@ export default [
     eligibility: 'Open',
   },
   {
+    name: 'MX+C (Line Follower)',
+    description: (
+      <p>
+        Build a line following robot which is capable of following a black line
+        on a white surface in the least possible time.
+      </p>
+    ),
+    eligibility: 'Open',
+  },
+  {
     name: 'Surprise Event For Girls',
     description: (
       <p>
@@ -207,4 +217,4 @@ export default [
     ),
     eligibility: 'Open',
   },
-];
+]
