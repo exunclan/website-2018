@@ -16,12 +16,12 @@ const links = [
     href: '/about',
   },
   {
-    title: 'Alumni',
-    href: '/alumni',
-  },
-  {
     title: 'Members',
     href: '/members',
+  },
+  {
+    title: 'Alumni',
+    href: '/alumni',
   },
   {
     title: 'faculty',
@@ -102,7 +102,7 @@ const LinksItem = styled.li`
   padding: 0;
   margin: 0;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 18px;
   font-size: 1.35rem;
   letter-spacing: 1px;
   font-weight: 600;
@@ -127,18 +127,21 @@ class Navbar extends React.Component {
     }
     this.toggle = this.toggle.bind(this)
   }
+
   toggle() {
     this.setState(prevState => ({
       active: !prevState.active,
     }))
   }
+
   render() {
+    const { active } = this.state
     return (
       <Container>
         <Wrapper>
           <img height="60" src={logo} alt="" />
           <Hamburger onClick={this.toggle}>☰</Hamburger>
-          <Nav active={this.state.active}>
+          <Nav active={active}>
             <Cross onClick={this.toggle}>✕</Cross>
             <Links>
               {links.map(link => (
