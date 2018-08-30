@@ -163,7 +163,7 @@ export default [
         image: '',
       },
       {
-        name: 'Aryaman Chandra',
+        name: 'Ashvin Verma',
         role: 'Member',
         image: '',
       },
@@ -193,17 +193,27 @@ export default [
         image: '',
       },
       {
-        name: 'Ashvin Verma',
-        role: 'Member',
-        image: '',
-      },
-      {
         name: 'Saathvik Sharma',
         role: 'Member',
         image: '',
       },
       {
+        name: 'Pulkit Garg',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Sarthak Mangla',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Shashwat Mundra',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Aryaman Chandra',
         role: 'Member',
         image: '',
       },
