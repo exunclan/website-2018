@@ -22,19 +22,18 @@ class InviteForm extends React.Component {
     let completeText = 'Error Making Request'
     if (success) {
       completeColor = '#42c8c5'
-      completeText = 'Request Received'
+      completeText = 'Check Your Email!'
     }
     this.setState({ complete: true, completeColor, completeText })
   }
 
   request(e) {
     e.preventDefault()
-    const email = this.state.email
-    const name = this.state.name
+    const { email, name } = this.state
     const formData = new FormData()
     formData.append('email', email)
     formData.append('name', name)
-    fetch('/invites/backend/add.php', {
+    fetch('/invites/add.php', {
       method: 'POST',
       body: formData,
       mode: 'cors',
@@ -48,29 +47,31 @@ class InviteForm extends React.Component {
       })
   }
 
-  renderComplete() {
-    return (
-      <Button
-        primary
-        style={{
-          backgroundColor: this.state.completeColor,
-          transform: 'none',
-          cursor: 'default',
-          boxShadow: 'none',
-        }}
-      >
-        {this.state.completeText}
-      </Button>
-    )
-  }
-
   handleChange(field, e) {
     const newState = {}
     newState[field] = e.target.value
     this.setState(newState)
   }
 
+  renderComplete() {
+    const { completeColor, completeText } = this.state
+    return (
+      <Button
+        primary
+        style={{
+          backgroundColor: completeColor,
+          transform: 'none',
+          cursor: 'default',
+          boxShadow: 'none',
+        }}
+      >
+        {completeText}
+      </Button>
+    )
+  }
+
   renderForm() {
+    const { name, email } = this.state
     return (
       <form
         style={{
@@ -90,17 +91,17 @@ class InviteForm extends React.Component {
         >
           <input
             onChange={this.handleChange.bind(this, 'name')}
-            key={'name'}
+            key="name"
             style={{ marginRight: 20 }}
-            value={this.state.name}
+            value={name}
             type="text"
             placeholder="School"
           />
           <input
             onChange={this.handleChange.bind(this, 'email')}
-            key={'email'}
+            key="email"
             type="text"
-            value={this.state.email}
+            value={email}
             placeholder="Email"
           />
         </div>
@@ -120,11 +121,11 @@ class InviteForm extends React.Component {
   }
 
   render() {
-    if (this.state.complete) {
+    const { complete } = this.state
+    if (complete) {
       return this.renderComplete()
-    } else {
-      return this.renderForm()
     }
+    return this.renderForm()
   }
 }
 
