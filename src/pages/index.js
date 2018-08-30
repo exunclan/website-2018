@@ -36,6 +36,15 @@ const Box = styled.span`
   border-radius: 4px;
 `
 
+const EventScroller = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+
+  &::-webkit-scrollbar {
+    background: transparent;
+  }
+`
+
 class Events extends React.Component {
   constructor(props) {
     super(props)
@@ -50,15 +59,7 @@ class Events extends React.Component {
   }
 
   render() {
-    const EventScroller = styled.div`
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-
-      &::-webkit-scrollbar {
-        background: transparent;
-      }
-    `
+    const { active } = this.state
 
     return (
       <div>
@@ -74,11 +75,12 @@ class Events extends React.Component {
             <h3 style={{ marginBottom: 0 }}>Events</h3>
           </div>
           <Button onClick={this.toggle} className="link-styled">
-            View {this.state.active ? 'Less' : 'All'}
+            View&nbsp;
+            {active ? 'Less' : 'All'}
           </Button>
         </div>
         <EventScroller>
-          {events.slice(0, this.state.active ? events.length : 3).map(event => (
+          {events.slice(0, active ? events.length : 3).map(event => (
             <Card key={event.name}>
               <h5>{event.name}</h5>
               <div>{event.description}</div>
