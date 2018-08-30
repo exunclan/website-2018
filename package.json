@@ -5,9 +5,9 @@
   "author": "Kabir Goel",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
-    "gatsby": "next",
-    "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-styled-components": "next",
+    "gatsby": "^2.0.0-rc.4",
+    "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
+    "gatsby-plugin-styled-components": "^3.0.0-rc.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
@@ -19,20 +19,22 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "rimraf public .cache",
+    "deploy": "gatsby build && gh-pages --dist public --branch deploy",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages --dist public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "eslint": "^4.12.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.5.1",
     "gh-pages": "^1.2.0",
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "rimraf": "^2.6.2"
   },
   "repository": {
     "type": "git",
