@@ -33,6 +33,11 @@ export default [
         image: '',
       },
       {
+        name: 'Sameer Chadha',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Sumay Mishra',
         role: 'Member',
         image: '',
@@ -153,6 +158,16 @@ export default [
     year: '9th',
     members: [
       {
+        name: 'Angad Singh',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Aryaman Chandra',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Somesh Kar',
         role: 'Member',
         image: '',
@@ -178,17 +193,17 @@ export default [
         image: '',
       },
       {
-        name: 'Angad Singh',
-        role: 'Member',
-        image: '',
-      },
-      {
         name: 'Ashvin Verma',
         role: 'Member',
         image: '',
       },
       {
         name: 'Saathvik Sharma',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Sarthak Mangla',
         role: 'Member',
         image: '',
       },
@@ -204,4 +219,4 @@ export default [
       },
     ],
   },
-];
+]
