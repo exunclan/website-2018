@@ -33,7 +33,7 @@ class InviteForm extends React.Component {
     const formData = new FormData()
     formData.append('email', email)
     formData.append('name', name)
-    fetch('/invites/add.php', {
+    fetch('/invites/backend/add.php', {
       method: 'POST',
       body: formData,
       mode: 'cors',
