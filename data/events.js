@@ -211,6 +211,7 @@ export default [
         </p>
         <ul>
           <li>Pyraminx</li>
+          <li>2x2 Cubing</li>
           <li>3X3 Cubing</li>
         </ul>
       </div>

@@ -32,6 +32,10 @@ const links = [
     href: '/archive',
   },
   {
+    title: 'Register',
+    href: '/reg',
+  },
+  {
     title: 'lnexun',
     href: '//lnexun.com',
     external: true,
