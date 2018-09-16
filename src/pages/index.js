@@ -35,6 +35,9 @@ const UniRely = styled.img`
   &:hover {
     opacity: 1;
   }
+  @media screen and (max-width: 920px) {
+    opacity: 1;
+  }
 `
 
 const Box = styled.span`
@@ -121,11 +124,11 @@ const Index = () => (
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
             </p>
-            <div style={{ maxHeight: "8rem" }}>
-              <p style={{ opacity: 0.8 }}>
-                Powered By&nbsp;
+            <div style={{ maxHeight: "8rem", userSelect: "none", opacity: 0.8, marginBottom: "2rem" }}>
+              Powered By&nbsp;
+              <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
-              </p>
+              </a>
             </div>
             <div>
               <InviteForm />

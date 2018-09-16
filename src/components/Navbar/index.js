@@ -143,7 +143,9 @@ class Navbar extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <img height="60" src={logo} alt="" />
+          <a href="//exunclan.com" rel="noopener noreferer">
+            <img height="60" src={logo} alt="" />
+          </a>
           <Hamburger onClick={this.toggle}>☰</Hamburger>
           <Nav active={active}>
             <Cross onClick={this.toggle}>✕</Cross>
