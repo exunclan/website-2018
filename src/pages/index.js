@@ -15,14 +15,26 @@ import InviteForm from '../components/InviteForm'
 import events from '../../data/events'
 
 import cover from './cover.svg'
+import unirely from './unirely.png'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 `
 
 const Cover = styled.img`
-  max-height: 320px;
+  max-height: 300px;
   margin-bottom: 2rem;
+`
+
+const UniRely = styled.img`
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1rem;
+  opacity: 0.5;
+  transition: opacity .6s;
+  &:hover {
+    opacity: 1;
+  }
 `
 
 const Box = styled.span`
@@ -102,12 +114,19 @@ const Index = () => (
             <div>
               <Cover src={cover} />
             </div>
+            <p style={{ color: "grey", marginBottom: "0px", marginTop: "1rem" }}>A Digital India Event</p>
             <h1>Exun 2018</h1>
             <h2>Bigger and better than ever before.</h2>
             <p>
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
             </p>
+            <div style={{ maxHeight: "8rem" }}>
+              <p style={{ opacity: 0.8 }}>
+                Powered By&nbsp;
+                <UniRely src={unirely} />
+              </p>
+            </div>
             <div>
               <InviteForm />
             </div>
