@@ -16,21 +16,41 @@ import events from '../../data/events'
 
 import cover from './cover.svg'
 import unirely from './unirely.png'
+import digitalindia from './digitalindia.png'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 `
 
 const Cover = styled.img`
-  max-height: 300px;
-  margin-bottom: 2rem;
+  max-height: 270px;
+  margin-bottom: 1rem;
+`
+
+const DigitalIndia = styled.img`
+  display: inline-block;
+  user-select: none;
+  max-height: 8rem;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+  margin-top: none;
+  opacity: 0.85;
+  transition: opacity .3s;
+  &:hover {
+    opacity: 1;
+  }
+  @media screen and (max-width: 920px) {
+    opacity: 1;
+  }
 `
 
 const UniRely = styled.img`
   display: inline-block;
   vertical-align: middle;
   margin-top: 1rem;
-  opacity: 0.5;
+  margin-bottom: 1rem;
+  max-height: 8.1rem;
+  opacity: 0.7;
   transition: opacity .6s;
   &:hover {
     opacity: 1;
@@ -117,20 +137,21 @@ const Index = () => (
             <div>
               <Cover src={cover} />
             </div>
-            <p style={{ color: "grey", marginBottom: "0px", marginTop: "1rem" }}>A Digital India Event</p>
             <h1>Exun 2018</h1>
             <h2>Bigger and better than ever before.</h2>
             <p>
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
             </p>
-            <div style={{ maxHeight: "8rem", userSelect: "none", opacity: 0.8, marginBottom: "2rem" }}>
-              Powered By&nbsp;
+            <div style={{ maxHeight: "8rem", userSelect: "none", opacity: 0.9, color: "grey" }}>
+            A&nbsp;
+              <DigitalIndia src={digitalindia} />
+            &nbsp;event powered by&nbsp;
               <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
               </a>
             </div>
-            <div>
+            <div style={{ paddingTop:"4rem" }}>
               <InviteForm />
             </div>
           </Splash>
