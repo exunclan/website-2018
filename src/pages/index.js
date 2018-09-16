@@ -60,6 +60,16 @@ const UniRely = styled.img`
   }
 `
 
+const Sponsor = styled.div`
+  max-height: "8rem";
+  user-select: "none";
+  opacity: 0.9;
+  color: "grey";
+  @media screen and (max-width: 920px) {
+    width: 290px;
+  }
+`
+
 const Box = styled.span`
   padding: 0.2rem 0.5rem;
   margin: 0 0.2rem;
@@ -143,14 +153,14 @@ const Index = () => (
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
             </p>
-            <div style={{ maxHeight: "8rem", userSelect: "none", opacity: 0.9, color: "grey" }}>
+            <Sponsor>
             A&nbsp;
               <DigitalIndia src={digitalindia} />
             &nbsp;event powered by&nbsp;
               <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
               </a>
-            </div>
+            </Sponsor>
             <div style={{ paddingTop:"4rem" }}>
               <InviteForm />
             </div>
