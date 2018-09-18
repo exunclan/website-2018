@@ -156,7 +156,7 @@ const Index = () => (
             <Sponsor>
             A&nbsp;
               <DigitalIndia src={digitalindia} />
-            &nbsp;event powered by&nbsp;
+            &nbsp;supported event powered by&nbsp;
               <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
               </a>
