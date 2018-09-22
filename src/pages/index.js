@@ -155,7 +155,9 @@ const Index = () => (
             </p>
             <Sponsor>
             A&nbsp;
-              <DigitalIndia src={digitalindia} />
+              <a rel="noopener noreferer" target="_blank" href="//www.digitizeindia.gov.in"
+                <DigitalIndia src={digitalindia} />
+              </a>
             &nbsp;supported event powered by&nbsp;
               <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
