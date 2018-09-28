@@ -17,6 +17,7 @@ import events from '../../data/events'
 import cover from './cover.svg'
 import unirely from './unirely.png'
 import digitalindia from './digitalindia.png'
+import athena from './athena.png'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -45,6 +46,22 @@ const DigitalIndia = styled.img`
 `
 
 const UniRely = styled.img`
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-height: 8.1rem;
+  opacity: 0.7;
+  transition: opacity .6s;
+  &:hover {
+    opacity: 1;
+  }
+  @media screen and (max-width: 920px) {
+    opacity: 1;
+  }
+`
+
+const Athena = styled.img`
   display: inline-block;
   vertical-align: middle;
   margin-top: 1rem;
@@ -155,13 +172,18 @@ const Index = () => (
             </p>
             <Sponsor>
             A&nbsp;
-              <a rel="noopener noreferer" target="_blank" href="//www.digitizeindia.gov.in"
+              <a rel="noopener noreferer" target="_blank" href="//www.digitizeindia.gov.in">
                 <DigitalIndia src={digitalindia} />
               </a>
             &nbsp;supported event powered by&nbsp;
               <a rel="noopener noreferer" target="_blank" href="//unirely.com">
                 <UniRely src={unirely} />
               </a>
+              <br />
+            Co-Sponsored By&nbsp;&nbsp;
+              <a rel="noopener noreferer" target="_blank" href="//athenaeducation.co.in/">
+                <Athena src={athena} />
+              </a> 
             </Sponsor>
             <div style={{ paddingTop:"4rem" }}>
               <InviteForm />
