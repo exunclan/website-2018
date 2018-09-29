@@ -8,8 +8,8 @@ import logo from './logo.png'
 
 const links = [
   {
-    title: 'Home',
-    href: '/',
+    title: 'Register',
+    href: '/reg',
   },
   {
     title: 'About',
@@ -30,10 +30,6 @@ const links = [
   {
     title: 'Archive',
     href: '/archive',
-  },
-  {
-    title: 'Register',
-    href: '/reg',
   },
   {
     title: 'lnexun',
