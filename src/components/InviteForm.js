@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../components/Button'
+import Button from './Button'
 
 class InviteForm extends React.Component {
   constructor(props) {

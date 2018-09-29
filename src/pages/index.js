@@ -16,7 +16,7 @@ import events from '../../data/events'
 
 import cover from './cover.svg'
 import unirely from './unirely.png'
-import digitalindia from './digitalindia.png'
+import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
 
 const Slant = styled.div`
@@ -28,63 +28,17 @@ const Cover = styled.img`
   margin-bottom: 1rem;
 `
 
-const DigitalIndia = styled.img`
+const SponsorImage = styled.img`
   display: inline-block;
   user-select: none;
-  max-height: 8rem;
+  max-height: 7rem;
   vertical-align: middle;
   margin-bottom: 1rem;
   margin-top: none;
-  opacity: 0.85;
-  transition: opacity .3s;
-  &:hover {
-    opacity: 1;
-  }
-  @media screen and (max-width: 920px) {
-    opacity: 1;
-  }
 `
 
-const UniRely = styled.img`
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-height: 8.1rem;
-  opacity: 0.7;
-  transition: opacity .6s;
-  &:hover {
-    opacity: 1;
-  }
-  @media screen and (max-width: 920px) {
-    opacity: 1;
-  }
-`
-
-const Athena = styled.img`
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-height: 8.1rem;
-  opacity: 0.7;
-  transition: opacity .6s;
-  &:hover {
-    opacity: 1;
-  }
-  @media screen and (max-width: 920px) {
-    opacity: 1;
-  }
-`
-
-const Sponsor = styled.div`
-  max-height: "8rem";
-  user-select: "none";
-  opacity: 0.9;
-  color: "grey";
-  @media screen and (max-width: 920px) {
-    width: 290px;
-  }
+const Sponsors = styled.span`
+  font-weight: bold;
 `
 
 const Box = styled.span`
@@ -170,24 +124,24 @@ const Index = () => (
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
             </p>
-            <Sponsor>
-            A&nbsp;
-              <a rel="noopener noreferer" target="_blank" href="//www.digitizeindia.gov.in">
-                <DigitalIndia src={digitalindia} />
-              </a>
-            &nbsp;supported event powered by&nbsp;
-              <a rel="noopener noreferer" target="_blank" href="//unirely.com">
-                <UniRely src={unirely} />
-              </a>
-              <br />
-            Co-Sponsored By&nbsp;&nbsp;
-              <a rel="noopener noreferer" target="_blank" href="//google.com">
-                <Athena src={athena} />
-              </a>
-            </Sponsor>
-            <div style={{ paddingTop:"4rem" }}>
+            <div style={{ paddingTop: '4rem' }}>
               <InviteForm />
             </div>
+            <Sponsors style={{ paddingTop: '4rem' }}>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="//www.digitizeindia.gov.in"
+              >
+                <SponsorImage src={digitalIndia} />
+              </a>
+              <a rel="noopener noreferrer" target="_blank" href="//unirely.com">
+                <SponsorImage src={unirely} />
+              </a>
+              <a rel="noopener noreferrer" target="_blank" href="//google.com">
+                <SponsorImage src={athena} />
+              </a>
+            </Sponsors>
           </Splash>
         </Container>
       </Header>
@@ -197,7 +151,7 @@ const Index = () => (
         <Container>
           <Row>
             <Column size={8}>
-              <h3>National for the first time ever.</h3>
+              <h3>This time, we&#39;re going national.</h3>
               <p>
                 Exun has been organizing its flagship event for two decades.
                 With Exun 2018, the event becomes the first national technology

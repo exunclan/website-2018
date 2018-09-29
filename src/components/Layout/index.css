@@ -96,7 +96,11 @@ a:hover {
   color: #2977f5;
 }
 .link-styled {
-  color: #2977f5;
+  color: #00000077;
+  transition: 0.3s color ease-in-out;
+}
+.link-styled:hover {
+  color: #2977f5ff;
 }
 
 /* Forms

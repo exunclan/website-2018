@@ -32,6 +32,10 @@ const links = [
     href: '/archive',
   },
   {
+    title: 'Contact',
+    href: '/contact',
+  },
+  {
     title: 'lnexun',
     href: '//lnexun.com',
     external: true,
@@ -139,9 +143,9 @@ class Navbar extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <a href="//exunclan.com" rel="noopener noreferer">
+          <Link to="/">
             <img height="60" src={logo} alt="" />
-          </a>
+          </Link>
           <Hamburger onClick={this.toggle}>☰</Hamburger>
           <Nav active={active}>
             <Cross onClick={this.toggle}>✕</Cross>

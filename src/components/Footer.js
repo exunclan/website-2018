@@ -6,7 +6,6 @@ import Container from './Container'
 const Wrapper = styled.div`
   padding-top: 3rem;
   padding-bottom: 3rem;
-  border-top: 1px solid #eee;
   background: rgb(245, 248, 255);
 `
 

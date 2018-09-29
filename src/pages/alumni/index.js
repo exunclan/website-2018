@@ -24,7 +24,10 @@ const Alumni = () => (
       <Container>
         {batches.map(batch => (
           <Section key={batch.year}>
-            <h3>Batch of {batch.year}</h3>
+            <h3>
+              Batch of
+              {` ${batch.year}`}
+            </h3>
             <div
               style={{
                 display: 'flex',
