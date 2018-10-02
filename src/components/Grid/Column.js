@@ -52,7 +52,7 @@ export default ({ size, offset, children, style }) => {
 
     @media (min-width: 550px) {
       width: ${width};
-      marginleft: ${marginLeft};
+      margin-left: ${marginLeft};
     }
   `
 
