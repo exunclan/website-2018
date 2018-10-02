@@ -96,11 +96,11 @@ a:hover {
   color: #2977f5;
 }
 .link-styled {
-  color: #00000077;
-  transition: 0.3s color ease-in-out;
+  color: #2977f5ff;
+  transition: 0.1s color ease-in-out;
 }
 .link-styled:hover {
-  color: #2977f5ff;
+  color: #2977f5aa;
 }
 
 /* Forms
@@ -221,14 +221,6 @@ td {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #e1e1e1;
-}
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
 }
 
 /* Spacing
