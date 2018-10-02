@@ -16,4 +16,9 @@ export default [
     role: 'President, Exun Clan',
     email: 'vishrutmalik21@gmail.com',
   },
+  {
+    name: 'Bhavya Khandelwal',
+    role: 'Student Incharge, RoboKnights',
+    email: 'khandelwalbhavya7@gmail.com'
+  }
 ]
