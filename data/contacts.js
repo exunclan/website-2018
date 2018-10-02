@@ -17,4 +17,10 @@ export default [
     number: '+91-8800999270',
     email: 'vishrutmalik21@gmail.com',
   },
+  {
+    name: 'Aravind Ashok',
+    role: 'Member, Exun Clan',
+    number: '+91-8368265737',
+    email: 'aravindashok345@gmail.com',
+  },
 ]
