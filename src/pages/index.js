@@ -128,6 +128,11 @@ const Index = () => (
                       Registration
                     </a>
                   </li>
+                  <li>
+                    <a className="link-styled" href="https://exun.co/resources">
+                      Learning Resources
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Column>
