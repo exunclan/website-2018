@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'Mukesh Kumar',
+    name: 'Mr. Mukesh Kumar',
     role: 'Head, Exun Clan',
     number: '+91-9811685099',
     email: 'ikkumpal@gmail.com',
@@ -14,6 +14,7 @@ export default [
   {
     name: 'Vishrut Malik',
     role: 'President, Exun Clan',
+    number: '+91-8800999270',
     email: 'vishrutmalik21@gmail.com',
   },
 ]
