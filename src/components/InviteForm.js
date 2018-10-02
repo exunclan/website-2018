@@ -22,7 +22,7 @@ class InviteForm extends React.Component {
     let completeText = 'Error Making Request'
     if (success) {
       completeColor = '#42c8c5'
-      completeText = 'Awaiting approval...'
+      completeText = 'Check Your Email'
     }
     this.setState({ complete: true, completeColor, completeText })
   }
