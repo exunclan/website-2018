@@ -7,12 +7,10 @@ import Container from '../components/Container'
 import Header from '../components/Header'
 import Splash from '../components/Splash'
 import Section from '../components/Section'
-import Card from '../components/Card'
-import Button from '../components/Button'
 import { Row, Column } from '../components/Grid'
 import InviteForm from '../components/InviteForm'
-
-import events from '../../data/events'
+import Schedule from '../components/Schedule'
+import Events from '../components/Events'
 
 import cover from './cover.svg'
 import unirely from './unirely.png'
@@ -52,62 +50,6 @@ const Box = styled.span`
   border-radius: 4px;
 `
 
-const EventScroller = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-
-  &::-webkit-scrollbar {
-    background: transparent;
-  }
-`
-
-class Events extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-    }
-    this.toggle = this.toggle.bind(this)
-  }
-
-  toggle() {
-    this.setState(prevState => ({ active: !prevState.active }))
-  }
-
-  render() {
-    const { active } = this.state
-
-    return (
-      <div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginBottom: '2rem',
-          }}
-        >
-          <div>
-            <h3 style={{ marginBottom: 0 }}>Events</h3>
-          </div>
-          <Button onClick={this.toggle} className="link-styled">
-            View&nbsp;
-            {active ? 'Less' : 'All'}
-          </Button>
-        </div>
-        <EventScroller>
-          {events.slice(0, active ? events.length : 3).map(event => (
-            <Card key={event.name}>
-              <h5>{event.name}</h5>
-              <div>{event.description}</div>
-            </Card>
-          ))}
-        </EventScroller>
-      </div>
-    )
-  }
-}
-
 const Index = () => (
   <Layout>
     <Slant>
@@ -128,6 +70,7 @@ const Index = () => (
               <InviteForm />
             </div>
             <Sponsors style={{ paddingTop: '4rem' }}>
+              Supported by
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -135,9 +78,12 @@ const Index = () => (
               >
                 <SponsorImage src={digitalIndia} />
               </a>
+              Powered by
               <a rel="noopener noreferrer" target="_blank" href="//unirely.com">
                 <SponsorImage src={unirely} />
               </a>
+              <br />
+              Co-sponsored by
               <a rel="noopener noreferrer" target="_blank" href="//google.com">
                 <SponsorImage src={athena} />
               </a>
@@ -150,7 +96,7 @@ const Index = () => (
       <Section>
         <Container>
           <Row>
-            <Column size={8}>
+            <Column size={7}>
               <h3>This time, we&#39;re going national.</h3>
               <p>
                 Exun has been organizing its flagship event for two decades.
@@ -158,7 +104,39 @@ const Index = () => (
                 symposium for and by the students.
               </p>
             </Column>
+            <Column size={5}>
+              <div
+                style={{
+                  border: '1px solid #dfe1e5',
+                  borderRadius: 10,
+                  padding: '3rem',
+                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
+                }}
+              >
+                <h4>Important Links</h4>
+                <ul>
+                  <li>
+                    <a
+                      className="link-styled"
+                      href="https://www.facebook.com/events/1608746609432289/"
+                    >
+                      Facebook event
+                    </a>
+                  </li>
+                  <li>
+                    <a className="link-styled" href="https://exun.co/reg">
+                      Registration
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </Column>
           </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Schedule />
         </Container>
       </Section>
       <Section>

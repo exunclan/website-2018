@@ -24,7 +24,7 @@ const links = [
     href: '/alumni',
   },
   {
-    title: 'faculty',
+    title: 'Faculty',
     href: '/faculty',
   },
   {

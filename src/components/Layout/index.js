@@ -33,7 +33,10 @@ const Layout = ({ children }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.node,
+}
+Layout.defaultProps = {
+  children: null,
 }
 
 export default Layout
