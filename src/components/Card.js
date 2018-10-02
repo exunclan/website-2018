@@ -5,7 +5,8 @@ const Card = styled.div`
   border-radius: 10px;
   flex-basis: 31.333333333%;
   padding: 3rem;
-  margin-right: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
