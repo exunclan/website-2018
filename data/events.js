@@ -142,12 +142,7 @@ export default [
     eligibility: 'Open',
   },
   {
-    name: (
-      <span>
-        Domain
-        <sup>2</sup>+ Gaming
-      </span>
-    ),
+    name: 'Domain²+ Gaming',
     description: (
       <p>
         The prelims will be held online in multiple batches, from October 2-5. A
