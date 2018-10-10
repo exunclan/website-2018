@@ -65,6 +65,24 @@ const Index = () => (
             <p>
               Join us in celebrating the spirit of technology.&nbsp;
               <Box>27-28 October</Box>
+              <br />
+              <br />
+              <a
+                style={{
+                  textTransform: 'uppercase',
+                  letterSpacing: 1,
+                  fontWeight: 'bold',
+                  fontSize: '0.8em',
+                  backgroundColor: '#fff',
+                  padding: '10px 20px',
+                  borderRadius: 100,
+                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
+                }}
+                className="link-styled"
+                href="https://exun.co/details"
+              >
+                Details
+              </a>
             </p>
             <div style={{ paddingTop: '4rem' }}>
               <InviteForm />
@@ -133,10 +151,32 @@ const Index = () => (
                       Learning Resources
                     </a>
                   </li>
+                  <li>
+                    <a className="link-styled" href="https://exun.co/details">
+                      Details
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Column>
           </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container
+          style={{
+            backgroundColor: '#2977f511',
+            padding: 30,
+          }}
+        >
+          <strong>
+            The following details (i.e. schedule and events) are not
+            comprehensive &mdash; view{' '}
+            <a className="link-styled" href="https://exun.co/details">
+              exun.co/details
+            </a>
+            .
+          </strong>
         </Container>
       </Section>
       <Section>
