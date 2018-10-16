@@ -83,6 +83,23 @@ const Index = () => (
               >
                 Details
               </a>
+              <a
+                style={{
+                  marginLeft: 10,
+                  textTransform: 'uppercase',
+                  letterSpacing: 1,
+                  fontWeight: 'bold',
+                  fontSize: '0.8em',
+                  backgroundColor: '#fff',
+                  padding: '10px 20px',
+                  borderRadius: 100,
+                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
+                }}
+                className="link-styled"
+                href="https://exun.co/18/prelims"
+              >
+                Prelim Results
+              </a>
             </p>
             <div style={{ paddingTop: '4rem' }}>
               <InviteForm />
