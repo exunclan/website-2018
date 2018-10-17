@@ -16,6 +16,7 @@ import cover from './cover.svg'
 import unirely from './unirely.png'
 import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
+import pearl from './pearl.png'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -119,8 +120,12 @@ const Index = () => (
               </a>
               <br />
               Co-sponsored by
-              <a rel="noopener noreferrer" target="_blank" href="//google.com">
+              <a rel="noopener noreferrer" target="_blank" href="//athenaeducation.co.in">
                 <SponsorImage src={athena} />
+              </a>
+              and&nbsp;
+              <a rel="noopener noreferrer" target="_blank" href="//pearlacademy.com">
+                <SponsorImage src={pearl} style={{ maxHeight: '5rem', paddingTop: '1rem' }}/>
               </a>
             </Sponsors>
           </Splash>
