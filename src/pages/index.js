@@ -16,6 +16,7 @@ import cover from './cover.svg'
 import unirely from './unirely.png'
 import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
+import pointsTable from './points-table.png'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -171,6 +172,11 @@ const Index = () => (
                   <li>
                     <a className="link-styled" href="https://exun.co/details">
                       Details
+                    </a>
+                  </li>
+                  <li>
+                    <a className="link-styled" href={pointsTable}>
+                      Points table
                     </a>
                   </li>
                 </ul>
