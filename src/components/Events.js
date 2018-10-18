@@ -89,7 +89,7 @@ class Events extends React.Component {
               <Card key={event.name}>
                 <h5>
                   <a
-                    href={`https://exun.co/18/${event.name
+                    href={event.shortlink ? `https://exun.co/18/${event.shortlink}` : `https://exun.co/18/${event.name
                       .toLowerCase()
                       .replace(' ', '')
                       .replace('-', '')}`}
