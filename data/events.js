@@ -176,6 +176,7 @@ export default [
   },
   {
     name: 'MX+C (Line Follower)',
+    shortlink: 'mx+c',
     description: (
       <p>
         Build a line following robot which is capable of following a black line
