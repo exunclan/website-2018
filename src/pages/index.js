@@ -120,7 +120,7 @@ const Index = () => (
               </a>
               <br />
               Co-sponsored by
-              <a rel="noopener noreferrer" target="_blank" href="//athenaeducation.co.in">
+              <a rel="noopener noreferrer" target="_blank" href="http://athenaeducation.co.in">
                 <SponsorImage src={athena} />
               </a>
               and&nbsp;
