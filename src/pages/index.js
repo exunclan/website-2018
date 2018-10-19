@@ -16,6 +16,7 @@ import cover from './cover.svg'
 import unirely from './unirely.png'
 import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
+import pointsTable from './points-table.png'
 import pearl from './pearl.png'
 
 const Slant = styled.div`
@@ -120,12 +121,21 @@ const Index = () => (
               </a>
               <br />
               Co-sponsored by
-              <a rel="noopener noreferrer" target="_blank" href="http://athenaeducation.co.in/exun">
+              <a rel="noopener noreferrer"
+                 target="_blank"
+                 href="http://athenaeducation.co.in/exun">
                 <SponsorImage src={athena} />
               </a>
               and&nbsp;
-              <a rel="noopener noreferrer" target="_blank" href="//pearlacademy.com">
-                <SponsorImage src={pearl} style={{ maxHeight: '5rem', paddingTop: '1rem' }}/>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="//pearlacademy.com"
+              >
+                <SponsorImage
+                  src={pearl}
+                  style={{ maxHeight: '5rem', paddingTop: '1rem' }}
+                />
               </a>
             </Sponsors>
           </Splash>
@@ -176,6 +186,11 @@ const Index = () => (
                   <li>
                     <a className="link-styled" href="https://exun.co/details">
                       Details
+                    </a>
+                  </li>
+                  <li>
+                    <a className="link-styled" href={pointsTable}>
+                      Points table
                     </a>
                   </li>
                 </ul>
