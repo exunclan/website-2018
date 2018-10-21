@@ -56,9 +56,6 @@ const DayOne = () => (
           Mar-athon
           <br />
           <br />
-          Delhi-NCR Gaming (Finals)
-          <br />
-          <br />
           Domain
           <sup>2</sup>+ Gaming
           <br />

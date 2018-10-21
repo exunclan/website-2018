@@ -121,9 +121,11 @@ const Index = () => (
               </a>
               <br />
               Co-sponsored by
-              <a rel="noopener noreferrer"
-                 target="_blank"
-                 href="http://athenaeducation.co.in/exun">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="http://athenaeducation.co.in/exun"
+              >
                 <SponsorImage src={athena} />
               </a>
               and&nbsp;
