@@ -30,9 +30,7 @@ const NotFoundPage = () => (
               textAlign: 'center',
             }}
           >
-            <Link to="/" className="link-styled">
-              Go Home
-            </Link>
+            <Link to="/">Go Home</Link>
           </p>
         </div>
       </Container>

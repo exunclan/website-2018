@@ -113,7 +113,11 @@ const LinksItem = styled.li`
   text-transform: uppercase;
   cursor: pointer;
 
-  &:hover {
+  a {
+    color: inherit;
+  }
+
+  a:hover {
     color: #2977f5;
   }
 

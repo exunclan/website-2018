@@ -45,31 +45,31 @@ const DayOne = () => (
         <td />
         <td rowSpan={8}>Cubing Events (Prelims)</td>
         <td rowSpan={9}>RoboWars (Prelims)</td>
-        <td rowSpan={14}>SpaceTech (Finals)</td>
+        <td rowSpan={14}>SpaceTech (Finals)*</td>
         <td rowSpan={11}>Line Follower (Round 1 & 2)</td>
-        <td rowSpan={2}>Junior Quiz Prelims + GD (Round 1)</td>
+        <td rowSpan={2}>Junior Quiz Prelims + GD (Round 1)*</td>
       </tr>
       <tr>
         <td>9:30</td>
         <td />
         <td rowSpan={13}>
-          Mar-athon
+          Mar-athon*
           <br />
           <br />
           Domain
-          <sup>2</sup>+ Gaming
+          <sup>2</sup>+ Gaming*
           <br />
           <br />
           Girls Surprise
           <br />
           <br />
-          Build (Finals)
+          Build (Finals)*
         </td>
       </tr>
       <tr>
         <td>10:00</td>
         <td />
-        <td rowSpan={2}>Senior Quiz (Prelims) + GD (Round 1)</td>
+        <td rowSpan={2}>Senior Quiz (Prelims) + GD (Round 1)*</td>
       </tr>
       <tr>
         <td>10:30</td>
@@ -77,22 +77,22 @@ const DayOne = () => (
       </tr>
       <tr>
         <td>11:00</td>
-        <td rowSpan={4}>Crossword (Finals)</td>
-        <td rowSpan={2}>GD (Round 1) + Turing Test</td>
+        <td rowSpan={4}>Crossword (Finals)*</td>
+        <td rowSpan={2}>GD (Round 1)* + Turing Test*</td>
       </tr>
       <tr>
         <td>11:30</td>
       </tr>
       <tr>
         <td>12:00</td>
-        <td rowSpan={7}>Turing Test</td>
+        <td rowSpan={7}>Turing Test*</td>
       </tr>
       <tr>
         <td>12:30</td>
       </tr>
       <tr>
         <td>1:00</td>
-        <td rowSpan={6}>Group Discussion (Round 2)</td>
+        <td rowSpan={6}>Group Discussion (Round 2)*</td>
         <td />
       </tr>
       <tr>
@@ -135,7 +135,7 @@ const DayTwo = () => (
         <th>Day Two</th>
         <th>AVH</th>
         <th>Computer Labs</th>
-        <th>Computer Lab</th>
+        <th>Shogun Lab</th>
         <th>Seminar Room</th>
         <th>Seminar Studio</th>
         <th>OAT</th>
@@ -157,21 +157,21 @@ const DayTwo = () => (
         <td>9:00</td>
         <td />
         <td rowSpan={11}>
-          Domain2+ Gaming (Finals)
+          Domain2+ Gaming (Finals)*
           <br />
           <br />
           Delhi-NCR Gaming (Finals)
           <br />
           <br />
-          Build (Finals)
+          Build (Finals)*
           <br />
           <br />
-          Hardware
+          Hardware*
           <br />
           <br />
-          Competitive Programming
+          Competitive Programming*
         </td>
-        <td rowSpan={5}>Surprise (Finals)</td>
+        <td rowSpan={5}>Surprise (Finals)*</td>
         <td />
         <td />
         <td />
@@ -181,7 +181,7 @@ const DayTwo = () => (
         <td>9:30</td>
         <td rowSpan={4}>Junior Quiz (Finals)</td>
         <td rowSpan={8}>Cubing Events (Finals)</td>
-        <td rowSpan={8}>SpaceTech (Finals)</td>
+        <td rowSpan={8}>SpaceTech (Finals)*</td>
         <td rowSpan={3}>RoboWars</td>
         <td rowSpan={8}>Line Follower (Round 3)</td>
       </tr>
@@ -302,11 +302,14 @@ class Schedule extends React.Component {
           <div>
             <h3 style={{ marginBottom: 0 }}>Schedule</h3>
           </div>
-          <Button onClick={this.toggle} className="link-styled">
-            Day {dayOne ? 1 : 2} (toggle)
-          </Button>
+          <Button onClick={this.toggle}>Day {dayOne ? 1 : 2} (toggle)</Button>
         </div>
         <div style={{ overflowX: 'auto' }}>{this.renderTable()}</div>
+        <p>
+          <strong>
+            * marked events are only for qualifiers of the online prelims
+          </strong>
+        </p>
       </div>
     )
   }

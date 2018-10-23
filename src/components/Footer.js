@@ -16,13 +16,9 @@ const Footer = () => (
         textAlign: 'center',
       }}
     >
-      <a className="link-styled" href="//facebook.com">
-        Facebook
-      </a>
+      <a href="//facebook.com">Facebook</a>
       &nbsp;&middot;&nbsp;
-      <a className="link-styled" href="//lnexun.com">
-        ln(exun)
-      </a>
+      <a href="//lnexun.com">ln(exun)</a>
     </Container>
   </Wrapper>
 )

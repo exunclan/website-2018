@@ -92,7 +92,6 @@ class InviteForm extends React.Component {
           <input
             onChange={this.handleChange.bind(this, 'name')}
             key="name"
-            style={{ marginRight: 20 }}
             value={name}
             type="text"
             placeholder="School"

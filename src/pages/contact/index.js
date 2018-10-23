@@ -35,14 +35,11 @@ const Members = () => (
                 <h6 style={{ fontWeight: 500 }}>{contact.role}</h6>
                 <a
                   style={{ marginBottom: '0.5rem' }}
-                  className="link-styled"
                   href={`mailto:${contact.email}`}
                 >
                   {contact.email}
                 </a>
-                <a className="link-styled" href={`tel:${contact.number}`}>
-                  {contact.number}
-                </a>
+                <a href={`tel:${contact.number}`}>{contact.number}</a>
               </Card>
             ))}
           </div>

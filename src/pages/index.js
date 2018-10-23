@@ -80,7 +80,6 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
-                className="link-styled"
                 href="https://exun.co/details"
               >
                 Details
@@ -97,7 +96,6 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
-                className="link-styled"
                 href="https://exun.co/18/prelims"
               >
                 Prelim Results
@@ -162,40 +160,54 @@ const Index = () => (
                   border: '1px solid #dfe1e5',
                   borderRadius: 10,
                   padding: '3rem',
-                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
               >
                 <h4>Important Links</h4>
                 <ul>
                   <li>
-                    <a
-                      className="link-styled"
-                      href="https://www.facebook.com/events/1608746609432289/"
-                    >
+                    <a href="https://www.facebook.com/events/1608746609432289/">
                       Facebook event
                     </a>
                   </li>
                   <li>
-                    <a className="link-styled" href="https://exun.co/reg">
-                      Registration
-                    </a>
+                    <a href="https://exun.co/reg">Registration</a>
                   </li>
                   <li>
-                    <a className="link-styled" href="https://exun.co/resources">
-                      Learning Resources
-                    </a>
+                    <a href="https://exun.co/resources">Learning Resources</a>
                   </li>
                   <li>
-                    <a className="link-styled" href="https://exun.co/details">
-                      Details
-                    </a>
+                    <a href="https://exun.co/details">Details</a>
                   </li>
                   <li>
-                    <a className="link-styled" href={pointsTable}>
-                      Points table
-                    </a>
+                    <a href={pointsTable}>Points table</a>
                   </li>
                 </ul>
+              </div>
+            </Column>
+          </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Row>
+            <Column size={7}>
+              <h3>Get the app</h3>
+              <p>
+                Use the Exun 2018 app to receive updates, view schedules and
+                remain up to date about Exun 2018!
+              </p>
+              <div>
+                <a href="https://play.google.com/store/apps/details?id=com.exun2018&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                  <img
+                    style={{
+                      width: 180,
+                      marginBottom: -10,
+                      marginLeft: -12,
+                    }}
+                    alt="Get it on Google Play"
+                    src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+                  />
+                </a>
               </div>
             </Column>
           </Row>
@@ -211,10 +223,7 @@ const Index = () => (
           <strong>
             The following details (i.e. schedule and events) are not
             comprehensive &mdash; view{' '}
-            <a className="link-styled" href="https://exun.co/details">
-              exun.co/details
-            </a>
-            .
+            <a href="https://exun.co/details">exun.co/details</a>.
           </strong>
         </Container>
       </Section>

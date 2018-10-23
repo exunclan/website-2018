@@ -75,7 +75,7 @@ class Events extends React.Component {
           <div>
             <h3 style={{ marginBottom: 0 }}>Events</h3>
           </div>
-          <Button onClick={this.toggle} className="link-styled">
+          <Button onClick={this.toggle}>
             View&nbsp;
             {active ? 'Less' : 'All'}
           </Button>
@@ -89,10 +89,14 @@ class Events extends React.Component {
               <Card key={event.name}>
                 <h5>
                   <a
-                    href={event.shortlink ? `https://exun.co/18/${event.shortlink}` : `https://exun.co/18/${event.name
-                      .toLowerCase()
-                      .replace(' ', '')
-                      .replace('-', '')}`}
+                    href={
+                      event.shortlink
+                        ? `https://exun.co/18/${event.shortlink}`
+                        : `https://exun.co/18/${event.name
+                            .toLowerCase()
+                            .replace(' ', '')
+                            .replace('-', '')}`
+                    }
                   >
                     {event.name}
                   </a>
