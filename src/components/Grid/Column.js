@@ -30,7 +30,21 @@ const offsets = [
   '95.3333333333%',
 ]
 
-export default ({ size, offset, children, style }) => {
+const Column = styled.div`
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+
+  @media (min-width: 550px) {
+    width: ${props => props.width};
+    &:first-child {
+      margin-left: ${props => props.marginLeft || 0};
+    }
+    margin-left: ${props => props.marginLeft || '4%'};
+  }
+`
+
+export default ({ size, offset, children, ...props } = {}) => {
   const width = sizes[size - 1] || '100%'
   let marginLeft
   if (offset) {
@@ -38,23 +52,12 @@ export default ({ size, offset, children, style }) => {
   } else if (width === '100%') {
     marginLeft = 0
   } else {
-    marginLeft = '4%'
+    marginLeft = null
   }
 
-  const Column = styled.div`
-    width: 100%;
-    float: left;
-    box-sizing: border-box;
-
-    &:first-child {
-      margin-left: 0;
-    }
-
-    @media (min-width: 550px) {
-      width: ${width};
-      margin-left: ${marginLeft};
-    }
-  `
-
-  return <Column style={style}>{children}</Column>
+  return (
+    <Column marginLeft={marginLeft} width={width} {...props}>
+      {children}
+    </Column>
+  )
 }
