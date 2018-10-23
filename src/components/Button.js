@@ -17,7 +17,7 @@ const DefaultButton = styled.button`
   background-color: transparent;
   border: 0;
   outline: 0;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
   transition-property: color;
@@ -34,8 +34,7 @@ const PrimaryButton = styled(DefaultButton)`
   transition-property: background-color, transform, box-shadow;
 
   &:hover {
-    box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.1);
-    transform: translateY(-1px);
+    background-color: #2365cf;
   }
 `
 
