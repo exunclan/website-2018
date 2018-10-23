@@ -45,14 +45,14 @@ const DayOne = () => (
         <td />
         <td rowSpan={8}>Cubing Events (Prelims)</td>
         <td rowSpan={9}>RoboWars (Prelims)</td>
-        <td rowSpan={14} bgcolor='#ebc0bf'>SpaceTech (Finals)</td>
+        <td rowSpan={14}>SpaceTech (Finals)</td>
         <td rowSpan={11}>Line Follower (Round 1 & 2)</td>
         <td rowSpan={2}>Junior Quiz Prelims + GD (Round 1)</td>
       </tr>
       <tr>
         <td>9:30</td>
         <td />
-        <td rowSpan={13} bgcolor='#ebc0bf'>
+        <td rowSpan={13}>
           Mar-athon
           <br />
           <br />
@@ -78,21 +78,21 @@ const DayOne = () => (
       <tr>
         <td>11:00</td>
         <td rowSpan={4}>Crossword (Finals)</td>
-        <td rowSpan={2} bgcolor='#ebc0bf'>GD (Round 1) + Turing Test</td>
+        <td rowSpan={2}>GD (Round 1) + Turing Test</td>
       </tr>
       <tr>
         <td>11:30</td>
       </tr>
       <tr>
         <td>12:00</td>
-        <td rowSpan={7} bgcolor='#ebc0bf'>Turing Test</td>
+        <td rowSpan={7}>Turing Test</td>
       </tr>
       <tr>
         <td>12:30</td>
       </tr>
       <tr>
         <td>1:00</td>
-        <td rowSpan={6} bgcolor='#ebc0bf'>Group Discussion (Round 2)</td>
+        <td rowSpan={6}>Group Discussion (Round 2)</td>
         <td />
       </tr>
       <tr>
@@ -156,7 +156,7 @@ const DayTwo = () => (
       <tr>
         <td>9:00</td>
         <td />
-        <td rowSpan={11} bgcolor='#ebc0bf'>
+        <td rowSpan={11}>
           Domain2+ Gaming (Finals)
           <br />
           <br />
@@ -171,7 +171,7 @@ const DayTwo = () => (
           <br />
           Competitive Programming
         </td>
-        <td rowSpan={5} bgcolor='#ebc0bf'>Surprise (Finals)</td>
+        <td rowSpan={5}>Surprise (Finals)</td>
         <td />
         <td />
         <td />
@@ -181,7 +181,7 @@ const DayTwo = () => (
         <td>9:30</td>
         <td rowSpan={4}>Junior Quiz (Finals)</td>
         <td rowSpan={8}>Cubing Events (Finals)</td>
-        <td rowSpan={8} bgcolor='#ebc0bf'>SpaceTech (Finals)</td>
+        <td rowSpan={8}>SpaceTech (Finals)</td>
         <td rowSpan={3}>RoboWars</td>
         <td rowSpan={8}>Line Follower (Round 3)</td>
       </tr>
