@@ -221,11 +221,6 @@ const Index = () => (
       <Section>
         <Container>
           <Schedule />
-          <strong>
-          <p>
-            * The events highlighted in pink are only for qualifiers of the online prelims.
-          </p>
-          </strong>
         </Container>
       </Section>
       <Section>
