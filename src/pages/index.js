@@ -18,6 +18,7 @@ import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
 import pointsTable from './points-table.png'
 import pearl from './pearl.png'
+import appStoreBadge from './app-store-badge.svg'
 
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -196,16 +197,30 @@ const Index = () => (
                 Use the Exun 2018 app to receive updates, view schedules and
                 remain up to date about Exun 2018!
               </p>
-              <div>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                }}
+              >
                 <a href="https://play.google.com/store/apps/details?id=com.exun2018&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                   <img
                     style={{
                       width: 180,
-                      marginBottom: -10,
                       marginLeft: -12,
                     }}
                     alt="Get it on Google Play"
                     src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+                  />
+                </a>
+                <a href="https://itunes.apple.com/us/app/exun-2018/id1439880657?mt=8">
+                  <img
+                    style={{
+                      width: 150,
+                      marginLeft: 10,
+                    }}
+                    alt="Download on the App Store"
+                    src={appStoreBadge}
                   />
                 </a>
               </div>
