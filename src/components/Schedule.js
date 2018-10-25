@@ -194,6 +194,9 @@ const DayTwo = () => (
           <br />
           <br />
           <OnlinePrelim>Competitive Programming</OnlinePrelim>
+          <br />
+          <br />
+          Girls Surprise
         </td>
         <td rowSpan={5}>
           <OnlinePrelim>Surprise (Finals)</OnlinePrelim>
