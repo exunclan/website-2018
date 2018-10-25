@@ -13,6 +13,10 @@ const Table = styled.table`
   }
 `
 
+const OnlinePrelim = styled.span`
+  color: #b21e35
+`
+
 const DayOne = () => (
   <Table>
     <thead>
@@ -45,31 +49,31 @@ const DayOne = () => (
         <td />
         <td rowSpan={8}>Cubing Events (Prelims)</td>
         <td rowSpan={9}>RoboWars (Prelims)</td>
-        <td rowSpan={14}>SpaceTech (Finals)*</td>
+        <td rowSpan={14}><OnlinePrelim>SpaceTech (Finals)</OnlinePrelim></td>
         <td rowSpan={11}>Line Follower (Round 1 & 2)</td>
-        <td rowSpan={2}>Junior Quiz Prelims + GD (Round 1)*</td>
+        <td rowSpan={2}>Junior Quiz Prelims + <OnlinePrelim>GD (Round 1)</OnlinePrelim></td>
       </tr>
       <tr>
         <td>9:30</td>
         <td />
         <td rowSpan={13}>
-          Mar-athon*
+          <OnlinePrelim>Mar-athon</OnlinePrelim>
           <br />
           <br />
-          Domain
-          <sup>2</sup>+ Gaming*
+          <OnlinePrelim>Domain
+          <sup>2</sup>+ Gaming</OnlinePrelim>
           <br />
           <br />
           Girls Surprise
           <br />
           <br />
-          Build (Finals)*
+          <OnlinePrelim>Build (Finals)</OnlinePrelim>
         </td>
       </tr>
       <tr>
         <td>10:00</td>
         <td />
-        <td rowSpan={2}>Senior Quiz (Prelims) + GD (Round 1)*</td>
+        <td rowSpan={2}>Senior Quiz (Prelims) + <OnlinePrelim>GD (Round 1)</OnlinePrelim></td>
       </tr>
       <tr>
         <td>10:30</td>
@@ -77,22 +81,22 @@ const DayOne = () => (
       </tr>
       <tr>
         <td>11:00</td>
-        <td rowSpan={4}>Crossword (Finals)*</td>
-        <td rowSpan={2}>GD (Round 1)* + Turing Test*</td>
+        <td rowSpan={4}><OnlinePrelim>Crossword (Finals)</OnlinePrelim></td>
+        <td rowSpan={2}><OnlinePrelim>GD (Round 1) + Turing Test</OnlinePrelim></td>
       </tr>
       <tr>
         <td>11:30</td>
       </tr>
       <tr>
         <td>12:00</td>
-        <td rowSpan={7}>Turing Test*</td>
+        <td rowSpan={7}><OnlinePrelim>Turing Test</OnlinePrelim></td>
       </tr>
       <tr>
         <td>12:30</td>
       </tr>
       <tr>
         <td>1:00</td>
-        <td rowSpan={6}>Group Discussion (Round 2)*</td>
+        <td rowSpan={6}><OnlinePrelim>Group Discussion (Round 2)</OnlinePrelim></td>
         <td />
       </tr>
       <tr>
@@ -157,21 +161,21 @@ const DayTwo = () => (
         <td>9:00</td>
         <td />
         <td rowSpan={11}>
-          Domain2+ Gaming (Finals)*
+          <OnlinePrelim>Domain2+ Gaming (Finals)</OnlinePrelim>
           <br />
           <br />
           Delhi-NCR Gaming (Finals)
           <br />
           <br />
-          Build (Finals)*
+          <OnlinePrelim>Build (Finals)</OnlinePrelim>
           <br />
           <br />
-          Hardware*
+          <OnlinePrelim>Hardware</OnlinePrelim>
           <br />
           <br />
-          Competitive Programming*
+          <OnlinePrelim>Competitive Programming</OnlinePrelim>
         </td>
-        <td rowSpan={5}>Surprise (Finals)*</td>
+        <td rowSpan={5}><OnlinePrelim>Surprise (Finals)</OnlinePrelim></td>
         <td />
         <td />
         <td />
@@ -307,7 +311,7 @@ class Schedule extends React.Component {
         <div style={{ overflowX: 'auto' }}>{this.renderTable()}</div>
         <p>
           <strong>
-            * marked events are only for qualifiers of the online prelims
+            Events in red are only for qualifiers of the online prelims
           </strong>
         </p>
       </div>
