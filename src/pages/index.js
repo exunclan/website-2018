@@ -107,7 +107,7 @@ const Index = () => (
                 padding: '1rem',
                 textAlign: 'center'
               }}>
-                Registration will close today at 3PM.<br/> No changes will be tolerated to a school's list of participants onsite. 
+                Registration will close today at 3PM.<br/> No changes will be tolerated to a school&#39;s list of participants onsite. 
               </div>
               <InviteForm />
             </div>
