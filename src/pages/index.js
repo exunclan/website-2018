@@ -103,6 +103,12 @@ const Index = () => (
               </a>
             </p>
             <div style={{ paddingTop: '4rem' }}>
+              <div style={{
+                padding: '1rem',
+                textAlign: 'center'
+              }}>
+                Registration will close today at 3PM.<br/> No changes will be tolerated to a school's list of participants onsite. 
+              </div>
               <InviteForm />
             </div>
             <Sponsors style={{ paddingTop: '4rem' }}>
