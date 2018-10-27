@@ -97,9 +97,9 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
-                href="https://exun.co/18/prelims"
+                href="https://exun.co/results"
               >
-                Prelim Results
+                Day 1 Results
               </a>
             </p>
             <div style={{ paddingTop: '4rem' }}>
