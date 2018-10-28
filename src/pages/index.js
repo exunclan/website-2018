@@ -15,7 +15,6 @@ import cover from './cover.svg'
 import unirely from './unirely.png'
 import digitalIndia from './digitalindia.png'
 import athena from './athena.png'
-import pointsTable from './points-table.png'
 import pearl from './pearl.png'
 import appStoreBadge from './app-store-badge.svg'
 
@@ -102,23 +101,6 @@ const Index = () => (
               >
                 Results
               </a>
-              <a
-                style={{
-                  marginLeft: 10,
-                  textTransform: 'uppercase',
-                  letterSpacing: 1,
-                  fontWeight: 'bold',
-                  fontSize: '0.8em',
-                  backgroundColor: '#fff',
-                  padding: '10px 20px',
-                  borderRadius: 100,
-                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
-                }}
-                target="_blank"
-                href="https://exun.co/18/pointstally"
-              >
-                Points Tally
-              </a>
             </p>
             <Sponsors style={{ paddingTop: '4rem' }}>
               Supported by
@@ -193,9 +175,6 @@ const Index = () => (
                   </li>
                   <li>
                     <a href="https://exun.co/details">Details</a>
-                  </li>
-                  <li>
-                    <a href={pointsTable}>Points table</a>
                   </li>
                 </ul>
               </div>
