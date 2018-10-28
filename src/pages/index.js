@@ -8,7 +8,6 @@ import Header from '../components/Header'
 import Splash from '../components/Splash'
 import Section from '../components/Section'
 import { Row, Column } from '../components/Grid'
-import InviteForm from '../components/InviteForm'
 import Schedule from '../components/Schedule'
 import Events from '../components/Events'
 
@@ -99,18 +98,25 @@ const Index = () => (
                 }}
                 href="https://exun.co/results"
               >
-                Day 1 Results
+                Results
+              </a>
+              <a
+                style={{
+                  marginLeft: 10,
+                  textTransform: 'uppercase',
+                  letterSpacing: 1,
+                  fontWeight: 'bold',
+                  fontSize: '0.8em',
+                  backgroundColor: '#fff',
+                  padding: '10px 20px',
+                  borderRadius: 100,
+                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
+                }}
+                href="https://exun.co/18/pointstally"
+              >
+                Points Tally
               </a>
             </p>
-            <div style={{ paddingTop: '4rem' }}>
-              <div style={{
-                padding: '1rem',
-                textAlign: 'center'
-              }}>
-                Registration will close today at 3PM.<br/> No changes will be allowed to a school&#39;s list of participants onsite. 
-              </div>
-              <InviteForm />
-            </div>
             <Sponsors style={{ paddingTop: '4rem' }}>
               Supported by
               <a
