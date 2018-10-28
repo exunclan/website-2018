@@ -80,6 +80,7 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
+                target="_blank"
                 href="https://exun.co/details"
               >
                 Details
@@ -96,6 +97,7 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
+                target="_blank"
                 href="https://exun.co/results"
               >
                 Results
@@ -112,6 +114,7 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
+                target="_blank"
                 href="https://exun.co/18/pointstally"
               >
                 Points Tally
