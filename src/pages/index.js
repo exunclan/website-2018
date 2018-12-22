@@ -8,8 +8,6 @@ import Header from '../components/Header'
 import Splash from '../components/Splash'
 import Section from '../components/Section'
 import { Row, Column } from '../components/Grid'
-import Schedule from '../components/Schedule'
-import Events from '../components/Events'
 
 import cover from './cover.svg'
 import unirely from './unirely.png'
@@ -40,17 +38,6 @@ const Sponsors = styled.span`
   font-weight: bold;
 `
 
-const Box = styled.span`
-  padding: 0.2rem 0.5rem;
-  margin: 0 0.2rem;
-  font-size: 90%;
-  color: inherit;
-  white-space: nowrap;
-  background: transparent;
-  border: 1px solid currentColor;
-  border-radius: 4px;
-`
-
 const Index = () => (
   <Layout>
     <Slant>
@@ -64,26 +51,8 @@ const Index = () => (
             <h1>Exun 2018</h1>
             <h2>Bigger and better than ever before.</h2>
             <p>
-              Join us in celebrating the spirit of technology.&nbsp;
-              <Box>27-28 October</Box>
               <br />
               <br />
-              <a
-                style={{
-                  textTransform: 'uppercase',
-                  letterSpacing: 1,
-                  fontWeight: 'bold',
-                  fontSize: '0.8em',
-                  backgroundColor: '#fff',
-                  padding: '10px 20px',
-                  borderRadius: 100,
-                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
-                }}
-                target="_blank"
-                href="https://exun.co/details"
-              >
-                Details
-              </a>
               <a
                 style={{
                   marginLeft: 10,
@@ -96,6 +65,7 @@ const Index = () => (
                   borderRadius: 100,
                   boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
                 }}
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://exun.co/results"
               >
@@ -145,10 +115,10 @@ const Index = () => (
         <Container>
           <Row>
             <Column size={7}>
-              <h3>This time, we&#39;re going national.</h3>
+              <h3>This time, we went national.</h3>
               <p>
                 Exun has been organizing its flagship event for two decades.
-                With Exun 2018, the event becomes the first national technology
+                Exun 2018 was the the first national technology
                 symposium for and by the students.
               </p>
             </Column>
@@ -163,18 +133,12 @@ const Index = () => (
                 <h4>Important Links</h4>
                 <ul>
                   <li>
-                    <a href="https://www.facebook.com/events/1608746609432289/">
-                      Facebook event
+                    <a href="https://www.facebook.com/ExunClan/">
+                      Facebook page
                     </a>
                   </li>
                   <li>
-                    <a href="https://exun.co/reg">Registration</a>
-                  </li>
-                  <li>
                     <a href="https://exun.co/resources">Learning Resources</a>
-                  </li>
-                  <li>
-                    <a href="https://exun.co/details">Details</a>
                   </li>
                 </ul>
               </div>
@@ -220,30 +184,6 @@ const Index = () => (
               </div>
             </Column>
           </Row>
-        </Container>
-      </Section>
-      <Section>
-        <Container
-          style={{
-            backgroundColor: '#2977f511',
-            padding: 30,
-          }}
-        >
-          <strong>
-            The following details (i.e. schedule and events) are not
-            comprehensive &mdash; view{' '}
-            <a href="https://exun.co/details">exun.co/details</a>.
-          </strong>
-        </Container>
-      </Section>
-      <Section>
-        <Container>
-          <Schedule />
-        </Container>
-      </Section>
-      <Section>
-        <Container>
-          <Events />
         </Container>
       </Section>
     </main>
