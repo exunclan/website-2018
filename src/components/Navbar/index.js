@@ -8,10 +8,6 @@ import logo from './logo.png'
 
 const links = [
   {
-    title: 'Register',
-    href: '/reg',
-  },
-  {
     title: 'About',
     href: '/about',
   },
