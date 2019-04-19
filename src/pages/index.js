@@ -51,6 +51,8 @@ const Index = () => (
             <h1>Exun 2018</h1>
             <h2>Bigger and better than ever before.</h2>
             <p>
+              Exun 2018 saw the participation of hundreds of people from around
+              the country.
               <br />
               <br />
               <a
@@ -72,40 +74,6 @@ const Index = () => (
                 Results
               </a>
             </p>
-            <Sponsors style={{ paddingTop: '4rem' }}>
-              Supported by
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="//www.digitizeindia.gov.in"
-              >
-                <SponsorImage src={digitalIndia} />
-              </a>
-              Powered by
-              <a rel="noopener noreferrer" target="_blank" href="//unirely.com">
-                <SponsorImage src={unirely} />
-              </a>
-              <br />
-              Co-sponsored by
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="http://athenaeducation.co.in/exun"
-              >
-                <SponsorImage src={athena} />
-              </a>
-              and&nbsp;
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="//pearlacademy.com"
-              >
-                <SponsorImage
-                  src={pearl}
-                  style={{ maxHeight: '5rem', paddingTop: '1rem' }}
-                />
-              </a>
-            </Sponsors>
           </Splash>
         </Container>
       </Header>
@@ -115,11 +83,11 @@ const Index = () => (
         <Container>
           <Row>
             <Column size={7}>
-              <h3>This time, we went national.</h3>
+              <h3>For Exun 2018, we went national.</h3>
               <p>
                 Exun has been organizing its flagship event for two decades.
-                Exun 2018 was the the first national technology
-                symposium for and by the students.
+                Exun 2018 was the the first national technology symposium for
+                and by the students.
               </p>
             </Column>
             <Column size={5}>
