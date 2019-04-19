@@ -22,10 +22,10 @@ const About = () => (
         <Section>
           <p style={{ textAlign: 'justify' }}>
             Exun, the computer club at Delhi Public School, R.K. Puram, stands
-            for Experts Unlimited. Our motto is &quot;We, not I&quot;, which, in essence,
-            means that we believe in team spirit. Exun was started in 1992 by
-            the Head of Department, Computer Science, Mr. Mukesh Kumar, and a
-            small group of talented students. It is today a 50+ member
+            for Experts Unlimited. Our motto is &quot;We, not I&quot;, which, in
+            essence, means that we believe in team spirit. Exun was started in
+            1992 by the Head of Department, Computer Science, Mr. Mukesh Kumar,
+            and a small group of talented students. It is today a 50+ member
             organisation with its members standing out in various fields like
             programming, tech quizzing, web design &amp; development, digital
             imaging, 3D design &amp; animation, 2D animation and video and audio
@@ -40,7 +40,7 @@ const About = () => (
           <p>
             Having represented the school in various computing symposia in India
             and around the world, the club also hosts its annual computer
-            symposium, Exun. Exun has been held 22 times and has been a great
+            symposium, Exun. Exun has been held 23 times and has been a great
             success each time.
           </p>
           <table>
@@ -51,7 +51,10 @@ const About = () => (
               </tr>
               <tr>
                 <td>Exun 2018</td>
-                <td>UniRely, Athena Education, Pearl Academy, Supported by Digital India</td>
+                <td>
+                  UniRely, Athena Education, Pearl Academy, Supported by Digital
+                  India
+                </td>
               </tr>
               <tr>
                 <td>Exun 2017</td>
