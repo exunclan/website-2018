@@ -3,76 +3,6 @@ export default [
     year: '12th',
     members: [
       {
-        name: 'Shashwat Goel',
-        role: 'President',
-        image: '',
-      },
-      {
-        name: 'Vishrut Malik',
-        role: 'President',
-        image: '',
-      },
-      {
-        name: 'Aman Verma',
-        role: 'Vice-President',
-        image: '',
-      },
-      {
-        name: 'Gursher Aujla',
-        role: 'Vice-President',
-        image: '',
-      },
-      {
-        name: 'Anirudh Chauhan',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Udit Malik',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Sameer Chadha',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Sumay Mishra',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Yashwardhann Kumar',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Arunim Gupta',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Ritin Pachnanda',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Isha Arora',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Bhavya Khandelwal',
-        role: 'Member',
-        image: '',
-      },
-    ],
-  },
-  {
-    year: '11th',
-    members: [
-      {
         name: 'Kabir Goel',
         role: 'Member',
         image: '',
@@ -135,7 +65,7 @@ export default [
     ],
   },
   {
-    year: '10th',
+    year: '11th',
     members: [
       {
         name: 'Alhad Sethi',
@@ -155,7 +85,7 @@ export default [
     ],
   },
   {
-    year: '9th',
+    year: '10th',
     members: [
       {
         name: 'Angad Singh',
@@ -220,7 +150,7 @@ export default [
     ],
   },
   {
-    year: '6th',
+    year: '7th',
     members: [
       {
         name: 'Kabir Mathur',

@@ -1,5 +1,62 @@
 export default [
   {
+    year: '2018-19',
+    alumni: [
+    {
+        name: 'Shashwat Goel',
+        role: 'President',
+      },
+      {
+        name: 'Vishrut Malik',
+        role: 'President',
+      },
+      {
+        name: 'Aman Verma',
+        role: 'Vice-President',
+      },
+      {
+        name: 'Gursher Aujla',
+        role: 'Vice-President',
+      },
+      {
+        name: 'Anirudh Chauhan',
+        role: 'Member',
+      },
+      {
+        name: 'Udit Malik',
+        role: 'Member',
+      },
+      {
+        name: 'Sameer Chadha',
+        role: 'Member',
+      },
+      {
+        name: 'Sumay Mishra',
+        role: 'Member',
+      },
+      {
+        name: 'Yashwardhann Kumar',
+        role: 'Member',
+      },
+      {
+        name: 'Arunim Gupta',
+        role: 'Member',
+      },
+      {
+        name: 'Ritin Pachnanda',
+        role: 'Member',
+      },
+      {
+        name: 'Isha Arora',
+        role: 'Member',
+      },
+      {
+        name: 'Bhavya Khandelwal',
+        role: 'Member',
+      },
+    ],
+  },
+  {
     year: '2017-18',
     alumni: [
       {
