@@ -4,22 +4,22 @@ export default [
     members: [
       {
         name: 'Kabir Goel',
-        role: 'Member',
+        role: 'President',
         image: '',
       },
       {
-        name: 'Aaryak Garg',
-        role: 'Member',
+        name: 'Naman Dhingra',
+        role: 'President',
         image: '',
       },
       {
         name: 'Shiv Sethi',
-        role: 'Member',
+        role: 'Vice-President',
         image: '',
       },
       {
-        name: 'Rajvardhan Singh',
-        role: 'Member',
+        name: 'Bharat Goyal',
+        role: 'Vice-President',
         image: '',
       },
       {
@@ -53,12 +53,7 @@ export default [
         image: '',
       },
       {
-        name: 'Bharat Goyal',
-        role: 'Member',
-        image: '',
-      },
-      {
-        name: 'Naman Dhingra',
+        name: 'Aaryak Garg',
         role: 'Member',
         image: '',
       },
@@ -66,7 +61,17 @@ export default [
         name: 'Sarah Randhawa',
         role: 'Member',
         image: '',
-      },    
+      },
+      {
+        name: 'Karan Handa',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Arihant Hemendra',
+        role: 'Member',
+        image: '',
+      },
     ],
   },
   {
@@ -84,6 +89,11 @@ export default [
       },
       {
         name: 'Shashwat Chandra',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Priyanshi Ahuja',
         role: 'Member',
         image: '',
       },
