@@ -10,10 +10,6 @@ import Section from '../components/Section'
 import { Row, Column } from '../components/Grid'
 
 import cover from './cover.svg'
-import unirely from './unirely.png'
-import digitalIndia from './digitalindia.png'
-import athena from './athena.png'
-import pearl from './pearl.png'
 import appStoreBadge from './app-store-badge.svg'
 
 const Slant = styled.div`
@@ -23,19 +19,6 @@ const Slant = styled.div`
 const Cover = styled.img`
   max-height: 270px;
   margin-bottom: 1rem;
-`
-
-const SponsorImage = styled.img`
-  display: inline-block;
-  user-select: none;
-  max-height: 7rem;
-  vertical-align: middle;
-  margin-bottom: 1rem;
-  margin-top: none;
-`
-
-const Sponsors = styled.span`
-  font-weight: bold;
 `
 
 const Index = () => (
