@@ -32,7 +32,7 @@ const links = [
     href: '/contact',
   },
   {
-    title: 'lnexun',
+    title: 'ln(exun)',
     href: '//lnexun.com',
     external: true,
   },
@@ -110,7 +110,7 @@ const LinksItem = styled.li`
   cursor: pointer;
 
   a {
-    color: inherit;
+    color: #193158aa;
   }
 
   a:hover {
@@ -144,7 +144,7 @@ class Navbar extends React.Component {
       <Container>
         <Wrapper>
           <Link to="/">
-            <img height="60" src={logo} alt="" />
+            <img height="50" src={logo} alt="" />
           </Link>
           <Hamburger onClick={this.toggle}>☰</Hamburger>
           <Nav active={active}>
