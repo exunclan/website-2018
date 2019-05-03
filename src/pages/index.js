@@ -46,9 +46,7 @@ const Index = ({
                   <h1>e-Lite 2019</h1>
                   <h2>Do you have what it takes?</h2>
                   <p>
-                    e-Lite 2019, Exun’s annual induction test, will be held on
-                    Friday, May 10, from 2&ndash;4:30PM. An orientation will be
-                    held in stayback on Tuesday, May 7.
+                    e-Lite, Exun’s annual induction test, is back.
                     <br />
                     <br />
                     <a
