@@ -172,6 +172,11 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Saksham Raheja',
+        role: 'Member',
+        image: '',
+      },
     ],
   },
 ]
