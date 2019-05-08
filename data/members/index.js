@@ -118,6 +118,11 @@ export default [
         image: '',
       },
       {
+        name: 'Anirudh Vempati',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Ishir Bhardwaj',
         role: 'Member',
         image: '',
