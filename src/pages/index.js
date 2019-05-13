@@ -1,5 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { graphql } from 'gatsby'
+import Image from 'gatsby-image'
 
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -9,71 +12,65 @@ import Splash from '../components/Splash'
 import Section from '../components/Section'
 import { Row, Column } from '../components/Grid'
 
-import cover from './cover.svg'
-import unirely from './unirely.png'
-import digitalIndia from './digitalindia.png'
-import athena from './athena.png'
-import pearl from './pearl.png'
-import appStoreBadge from './app-store-badge.svg'
-
 const Slant = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 `
 
-const Cover = styled.img`
-  max-height: 270px;
-  margin-bottom: 1rem;
+const Cover = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 `
 
-const SponsorImage = styled.img`
-  display: inline-block;
-  user-select: none;
-  max-height: 7rem;
-  vertical-align: middle;
-  margin-bottom: 1rem;
-  margin-top: none;
-`
-
-const Sponsors = styled.span`
-  font-weight: bold;
-`
-
-const Index = () => (
+const Index = ({
+  data: {
+    file: {
+      childImageSharp: { fluid },
+    },
+  },
+}) => (
   <Layout>
     <Slant>
       <Header>
         <Navbar />
         <Container>
           <Splash>
-            <div>
-              <Cover src={cover} />
-            </div>
-            <h1>Exun 2018</h1>
-            <h2>Bigger and better than ever before.</h2>
-            <p>
-              Exun 2018 saw the participation of hundreds of people from around
-              the country.
-              <br />
-              <br />
-              <a
-                style={{
-                  marginLeft: 10,
-                  textTransform: 'uppercase',
-                  letterSpacing: 1,
-                  fontWeight: 'bold',
-                  fontSize: '0.8em',
-                  backgroundColor: '#fff',
-                  padding: '10px 20px',
-                  borderRadius: 100,
-                  boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
-                }}
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://exun.co/results"
-              >
-                Results
-              </a>
-            </p>
+            <Row>
+              <Column size="eight" offset="two">
+                <Cover>
+                  <div style={{ height: 300, width: 300 }}>
+                    <Image fluid={fluid} />
+                  </div>
+                  <h1>e-Lite 2019</h1>
+                  <h2>Do you have what it takes?</h2>
+                  <p>
+                    e-Lite, Exun’s annual induction test, is back.
+                    <br />
+                    <br />
+                    <a
+                      style={{
+                        marginLeft: 10,
+                        textTransform: 'uppercase',
+                        letterSpacing: 1,
+                        fontWeight: 'bold',
+                        fontSize: '0.8em',
+                        backgroundColor: '#fff',
+                        padding: '10px 20px',
+                        borderRadius: 100,
+                        boxShadow: '0 2px 3px 0 rgba(0, 0, 0, 0.05)',
+                      }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://exun.co/elite"
+                    >
+                      Register
+                    </a>
+                  </p>
+                </Cover>
+              </Column>
+            </Row>
           </Splash>
         </Container>
       </Header>
@@ -82,7 +79,7 @@ const Index = () => (
       <Section>
         <Container>
           <Row>
-            <Column size={7}>
+            <Column size="seven">
               <h3>For Exun 2018, we went national.</h3>
               <p>
                 Exun has been organizing its flagship event for two decades.
@@ -90,7 +87,7 @@ const Index = () => (
                 and by the students.
               </p>
             </Column>
-            <Column size={5}>
+            <Column size="five">
               <div
                 style={{
                   border: '1px solid #dfe1e5',
@@ -114,48 +111,29 @@ const Index = () => (
           </Row>
         </Container>
       </Section>
-      <Section>
-        <Container>
-          <Row>
-            <Column size={7}>
-              <h3>Get the app</h3>
-              <p>
-                Use the Exun 2018 app to receive updates, view schedules and
-                remain up to date about Exun 2018!
-              </p>
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                }}
-              >
-                <a href="https://play.google.com/store/apps/details?id=com.exun2018&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                  <img
-                    style={{
-                      width: 180,
-                      marginLeft: -12,
-                    }}
-                    alt="Get it on Google Play"
-                    src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-                  />
-                </a>
-                <a href="https://itunes.apple.com/us/app/exun-2018/id1439880657?mt=8">
-                  <img
-                    style={{
-                      width: 150,
-                      marginLeft: 10,
-                    }}
-                    alt="Download on the App Store"
-                    src={appStoreBadge}
-                  />
-                </a>
-              </div>
-            </Column>
-          </Row>
-        </Container>
-      </Section>
     </main>
   </Layout>
 )
+Index.propTypes = {
+  data: PropTypes.shape({
+    file: {
+      childImageSharp: {
+        fluid: PropTypes.any,
+      },
+    },
+  }).isRequired,
+}
 
 export default Index
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "cover.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`

@@ -6,7 +6,7 @@ import Container from '../../components/Container'
 import Header from '../../components/Header'
 import Splash from '../../components/Splash'
 import Section from '../../components/Section'
-import Card from '../../components/Card'
+import MemberCard from '../../components/MemberCard'
 
 import batches from '../../../data/alumni'
 
@@ -35,10 +35,7 @@ const Alumni = () => (
               }}
             >
               {batch.alumni.map(alum => (
-                <Card key={alum.name}>
-                  <h5>{alum.name}</h5>
-                  <h6 style={{ fontWeight: 500 }}>{alum.role}</h6>
-                </Card>
+                <MemberCard key={alum.name} {...alum} />
               ))}
             </div>
           </Section>

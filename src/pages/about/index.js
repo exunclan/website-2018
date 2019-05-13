@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import Navbar from '../../components/Navbar'
 import Container from '../../components/Container'
+import { Row, Column } from '../../components/Grid'
 import Header from '../../components/Header'
 import Splash from '../../components/Splash'
 import Section from '../../components/Section'
@@ -20,29 +21,38 @@ const About = () => (
     <main>
       <Container>
         <Section>
-          <p style={{ textAlign: 'justify' }}>
-            Exun, the computer club at Delhi Public School, R.K. Puram, stands
-            for Experts Unlimited. Our motto is &quot;We, not I&quot;, which, in
-            essence, means that we believe in team spirit. Exun was started in
-            1992 by the Head of Department, Computer Science, Mr. Mukesh Kumar,
-            and a small group of talented students. It is today a 50+ member
-            organisation with its members standing out in various fields like
-            programming, tech quizzing, web design &amp; development, digital
-            imaging, 3D design &amp; animation, 2D animation and video and audio
-            editing. Exun members form an elite team of computer enthusiasts of
-            all ages. They have represented the school in various computer
-            symposiums in India and around the world and have collectively won
-            several thousand awards.
-          </p>
+          <Row>
+            <Column size="seven">
+              <p style={{ textAlign: 'justify' }}>
+                Exun, the computer club at Delhi Public School, R.K. Puram,
+                stands for Experts Unlimited. Our motto is &quot;We, not
+                I&quot;, which, in essence, means that we believe in team
+                spirit. Exun was started in 1992 by the Head of Department,
+                Computer Science, Mr. Mukesh Kumar, and a small group of
+                talented students. It is today a 50+ member organisation with
+                its members standing out in various fields like programming,
+                tech quizzing, web design &amp; development, digital imaging, 3D
+                design &amp; animation, 2D animation and video and audio
+                editing. Exun members form an elite team of computer enthusiasts
+                of all ages. They have represented the school in various
+                computer symposiums in India and around the world and have
+                collectively won several thousand awards.
+              </p>
+            </Column>
+          </Row>
         </Section>
         <Section>
           <h3>Event History</h3>
-          <p>
-            Having represented the school in various computing symposia in India
-            and around the world, the club also hosts its annual computer
-            symposium, Exun. Exun has been held 23 times and has been a great
-            success each time.
-          </p>
+          <Row>
+            <Column size="seven">
+              <p>
+                Having represented the school in various computing symposia in
+                India and around the world, the club also hosts its annual
+                computer symposium, Exun. Exun has been held 23 times and has
+                been a great success each time.
+              </p>
+            </Column>
+          </Row>
           <table>
             <tbody>
               <tr>
