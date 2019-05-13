@@ -72,6 +72,11 @@ export default [
         role: 'Member',
         image: '',
       },
+      {
+        name: 'Sarah Randhawa',
+        role: 'Member',
+        image: '',
+      },    
     ],
   },
   {

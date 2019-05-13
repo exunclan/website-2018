@@ -309,88 +309,88 @@ export default [
       },
       {
         name: 'Rishabh Raj Nirula',
-        role: 'Alumni',
+        role: 'Senior Member',
         image: '',
       },
       {
         name: 'Tanay Kothari',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Rishabh Jain',
-        role: 'Alumni',
-        image: '',
+        role: 'Head, Cryptic Hunts',
+        image: ''
       },
       {
         name: 'Shubham Aggarwal',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Abhishek Anand',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Anumay Ashish Mishra',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Shikhar Shivam',
-        role: 'Alumni',
-        image: '',
+        role: 'Head, Hardware',
+        image: ''
       },
       {
         name: 'Arkin Gupta',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Zorawar Singh',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Abhinav Chadha',
-        role: 'Alumni',
-        image: '',
+        role: 'Senior Member',
+        image: ''
       },
       {
         name: 'Rahul Shekhar',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Abhimanyu Sinha',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Harshil Kashyap',
-        role: 'Alumni',
-        image: '',
+        role: 'Secretary',
+        image: ''
       },
       {
         name: 'Sana Gujral',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Neel Bakshi',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Sambhav Anand',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Akarsh Shekhar',
-        role: 'Alumni',
-        image: '',
+        role: 'Member',
+        image: ''
       },
     ],
   },
@@ -399,108 +399,108 @@ export default [
     alumni: [
       {
         name: 'Bharat Kashyap',
-        role: 'Alumni',
-        image: '',
+        role: 'President',
+        image: ''
       },
       {
         name: 'Raghav Batra',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Tanish Pratap',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Shiven Mian',
-        role: 'Alumni',
-        image: '',
+        role: 'Head, Quizzing',
+        image: ''
       },
       {
         name: 'Vishesh Balani',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Parth Mittal',
-        role: 'Alumni',
-        image: '',
+        role: 'Vice President',
+        image: ''
       },
       {
         name: 'Siddharth Bhogra',
-        role: 'Alumni',
-        image: '',
+        role: 'President',
+        image: ''
       },
       {
         name: 'Tanay Vardhan',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Kushagra Samarth',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Sahil Guleria',
-        role: 'Alumni',
-        image: '',
+        role: 'Coordinator',
+        image: ''
       },
       {
         name: 'Karmanya Singh',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Nikhar Dhingra',
-        role: 'Alumni',
-        image: '',
+        role: 'Vice President',
+        image: ''
       },
       {
         name: 'Prateek Swain',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Pranav Sethi',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Yatharth',
-        role: 'Alumni',
-        image: '',
+        role: 'Head Design',
+        image: ''
       },
       {
         name: 'Prannay Khosla',
-        role: 'Alumni',
-        image: '',
+        role: 'Head Web Design',
+        image: ''
       },
       {
         name: 'Aditya Khandelwal',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Avichal Rakesh',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Madhav Narayan',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Alabhya Vaibhav',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
       {
         name: 'Mrinaal Mittal',
-        role: 'Alumni',
-        image: '',
+        role: 'Honorary Advisor',
+        image: ''
       },
     ],
   },
