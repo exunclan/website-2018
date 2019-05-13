@@ -251,71 +251,71 @@ export default [
       },
       {
         name: 'Rishabh Raj Nirula',
-        role: 'Alumni',
+        role: 'Senior Member',
       },
       {
         name: 'Tanay Kothari',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Rishabh Jain',
-        role: 'Alumni',
+        role: 'Head, Cryptic Hunts',
       },
       {
         name: 'Shubham Aggarwal',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Abhishek Anand',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Anumay Ashish Mishra',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Shikhar Shivam',
-        role: 'Alumni',
+        role: 'Head, Hardware',
       },
       {
         name: 'Arkin Gupta',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Zorawar Singh',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Abhinav Chadha',
-        role: 'Alumni',
+        role: 'Senior Member',
       },
       {
         name: 'Rahul Shekhar',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Abhimanyu Sinha',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Harshil Kashyap',
-        role: 'Alumni',
+        role: 'Secretary',
       },
       {
         name: 'Sana Gujral',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Neel Bakshi',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Sambhav Anand',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Akarsh Shekhar',
-        role: 'Alumni',
+        role: 'Member',
       },
     ],
   },
@@ -324,87 +324,87 @@ export default [
     alumni: [
       {
         name: 'Bharat Kashyap',
-        role: 'Alumni',
+        role: 'President',
       },
       {
         name: 'Raghav Batra',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Tanish Pratap',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Shiven Mian',
-        role: 'Alumni',
+        role: 'Head, Quizzing',
       },
       {
         name: 'Vishesh Balani',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Parth Mittal',
-        role: 'Alumni',
+        role: 'Vice President',
       },
       {
         name: 'Siddharth Bhogra',
-        role: 'Alumni',
+        role: 'President',
       },
       {
         name: 'Tanay Vardhan',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Kushagra Samarth',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Sahil Guleria',
-        role: 'Alumni',
+        role: 'Coordinator',
       },
       {
         name: 'Karmanya Singh',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Nikhar Dhingra',
-        role: 'Alumni',
+        role: 'Vice President',
       },
       {
         name: 'Prateek Swain',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Pranav Sethi',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Yatharth',
-        role: 'Alumni',
+        role: 'Head Design',
       },
       {
         name: 'Prannay Khosla',
-        role: 'Alumni',
+        role: 'Head Web Design',
       },
       {
         name: 'Aditya Khandelwal',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Avichal Rakesh',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Madhav Narayan',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Alabhya Vaibhav',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
       {
         name: 'Mrinaal Mittal',
-        role: 'Alumni',
+        role: 'Honorary Advisor',
       },
     ],
   },
