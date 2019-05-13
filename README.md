@@ -5,7 +5,7 @@
 
 Live on https://exunclan.com
 
-## Getting started
+## 🚀Getting started
 
 1. **Clone the repository**
 
