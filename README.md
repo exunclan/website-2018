@@ -3,6 +3,8 @@
 
 <a src="https://exunclan.com">Exun Clan</a>'s website is developed on React, and is generated using the GatsbyJS generator.
 
+Live on https://exunclan.com
+
 ## Getting started
 
 1. **Clone the repository**
