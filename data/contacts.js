@@ -6,16 +6,16 @@ export default [
     email: 'ikkumpal@gmail.com',
   },
   {
-    name: 'Shashwat Goel',
+    name: 'Kabir Goel',
     role: 'President, Exun Clan',
-    number: '‭+91-8130783814‬',
-    email: 'shashwatnow@gmail.com',
+    number: '‭+91-8800810463',
+    email: 'kabirgoel.kg@gmail.com',
   },
   {
-    name: 'Vishrut Malik',
+    name: 'Naman Dhingra',
     role: 'President, Exun Clan',
-    number: '+91-8800999270',
-    email: 'vishrutmalik21@gmail.com',
+    number: '+91-9582358200',
+    email: '1608naman@gmail.com',
   },
   {
     name: 'Aravind Ashok',
