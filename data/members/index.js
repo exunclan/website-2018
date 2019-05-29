@@ -72,11 +72,6 @@ export default [
         role: 'Member',
         image: '',
       },
-      {
-        name: 'Sarah Randhawa',
-        role: 'Member',
-        image: '',
-      },    
     ],
   },
   {
@@ -119,6 +114,11 @@ export default [
       },
       {
         name: 'Somesh Kar',
+        role: 'Member',
+        image: '',
+      },
+      {
+        name: 'Rudraneel Sinha',
         role: 'Member',
         image: '',
       },
