@@ -63,6 +63,11 @@ export default [
         image: '',
       },
       {
+        name: 'Vibhu Dubey',
+        role: 'Member',
+        image: '',
+      },
+      {
         name: 'Bhavya Khandelwal',
         role: 'Member',
         image: '',
@@ -315,82 +320,82 @@ export default [
       {
         name: 'Tanay Kothari',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Rishabh Jain',
         role: 'Head, Cryptic Hunts',
-        image: ''
+        image: '',
       },
       {
         name: 'Shubham Aggarwal',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Abhishek Anand',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Anumay Ashish Mishra',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Shikhar Shivam',
         role: 'Head, Hardware',
-        image: ''
+        image: '',
       },
       {
         name: 'Arkin Gupta',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Zorawar Singh',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Abhinav Chadha',
         role: 'Senior Member',
-        image: ''
+        image: '',
       },
       {
         name: 'Rahul Shekhar',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Abhimanyu Sinha',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Harshil Kashyap',
         role: 'Secretary',
-        image: ''
+        image: '',
       },
       {
         name: 'Sana Gujral',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Neel Bakshi',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Sambhav Anand',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Akarsh Shekhar',
         role: 'Member',
-        image: ''
+        image: '',
       },
     ],
   },
@@ -400,107 +405,107 @@ export default [
       {
         name: 'Bharat Kashyap',
         role: 'President',
-        image: ''
+        image: '',
       },
       {
         name: 'Raghav Batra',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Tanish Pratap',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Shiven Mian',
         role: 'Head, Quizzing',
-        image: ''
+        image: '',
       },
       {
         name: 'Vishesh Balani',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Parth Mittal',
         role: 'Vice President',
-        image: ''
+        image: '',
       },
       {
         name: 'Siddharth Bhogra',
         role: 'President',
-        image: ''
+        image: '',
       },
       {
         name: 'Tanay Vardhan',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Kushagra Samarth',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Sahil Guleria',
         role: 'Coordinator',
-        image: ''
+        image: '',
       },
       {
         name: 'Karmanya Singh',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Nikhar Dhingra',
         role: 'Vice President',
-        image: ''
+        image: '',
       },
       {
         name: 'Prateek Swain',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Pranav Sethi',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Yatharth',
         role: 'Head Design',
-        image: ''
+        image: '',
       },
       {
         name: 'Prannay Khosla',
         role: 'Head Web Design',
-        image: ''
+        image: '',
       },
       {
         name: 'Aditya Khandelwal',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Avichal Rakesh',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Madhav Narayan',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Alabhya Vaibhav',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
       {
         name: 'Mrinaal Mittal',
         role: 'Honorary Advisor',
-        image: ''
+        image: '',
       },
     ],
   },
