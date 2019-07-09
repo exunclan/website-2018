@@ -103,7 +103,7 @@ const Index = ({
                     </a>
                   </li>
                   <li>
-                    <a href="https://exun.co/resources">Learning Resources</a>
+                    <a href="https://exunclan.github.io/resources">Learning Resources</a>
                   </li>
                 </ul>
               </div>
